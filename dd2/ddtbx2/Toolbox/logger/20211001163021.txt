@@ -1,0 +1,3 @@
+2021-10-01 16:30:22,271 WARN compare_net_dloc - Log changed to Toolbox/logger/20211001163021.txt
+2021-10-01 16:30:25,380 INFO compare_net_dloc - Classifying using network from 20210723072505, with accuracy: 0.94889
+2021-10-01 16:30:39,400 WARN compare_net_dloc - Log changed to Toolbox/logger/20211001163039.txt

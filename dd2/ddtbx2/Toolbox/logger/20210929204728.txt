@@ -1,0 +1,6 @@
+2021-09-29 20:47:28,527 WARN get_store - Log changed to Toolbox/logger/20210929204728.txt
+2021-09-29 20:47:43,372 INFO mylstm2 - running dataset visualisation
+2021-09-29 20:50:05,826 INFO mylstm - accuracy obtained from training = 0.87037
+2021-09-29 21:13:26,774 WARN get_store - Log changed to Toolbox/logger/20210929211326.txt
+2021-09-29 21:13:37,817 INFO mylstm2 - running dataset visualisation
+2021-09-29 21:15:52,767 INFO mylstm - accuracy obtained from training = 0.85556

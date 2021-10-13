@@ -1,0 +1,9 @@
+2021-07-23 12:01:42,923 WARN tdloc - Log changed toToolbox/logger/20210723120142.txt
+2021-07-23 12:01:47,469 INFO tdloc - Plotting original supervised damage locations using network from 20210723072505, with accuracy: 0.85444
+2021-07-23 12:01:47,733 DEBUG dloc - resolution of model = 0.05
+2021-07-23 12:01:47,988 DEBUG dloc - radius of model = 10
+2021-07-23 12:01:48,224 DEBUG dloc - height of model = 149.9973
+2021-07-23 12:01:48,740 DEBUG dloc - plotting..
+2021-07-23 12:18:00,447 WARN  - Log changed toToolbox/logger/20210723121759.txt
+2021-07-23 12:18:03,377 INFO  - Classifying using network from 20210723072505, with accuracy: 0.85444
+2021-07-23 12:27:03,039 INFO  - Classifying using network from 20210723072505, with accuracy: 0.85444

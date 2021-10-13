@@ -1,0 +1,230 @@
+2021-07-20 01:05:38,256 INFO LSTMDDToolBox - Log started at toolbox/logger/20210720010537.txt
+2021-07-20 01:05:38,313 INFO general_reducer - event is  TOOLBOX_OBSERVER_ATTACHED
+2021-07-20 01:05:38,328 INFO tpps_reducer - 20TPPS_EDIT_START_ANGLE
+2021-07-20 01:05:38,335 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:05:38,389 INFO tpps_reducer - 20210720010538G_UID_SET
+2021-07-20 01:05:38,397 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:05:38,410 INFO tpps_reducer - 20210720010538G_UID_SET
+2021-07-20 01:05:38,444 INFO tpps_reducer - 90TPPS_EDIT_END_ANGLE
+2021-07-20 01:05:38,449 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:05:38,458 INFO tpps_reducer - 20210720010538G_UID_SET
+2021-07-20 01:05:38,463 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:05:38,475 INFO tpps_reducer - 20210720010538G_UID_SET
+2021-07-20 01:05:38,500 INFO tpps_reducer - 10TPPS_EDIT_RADIUS
+2021-07-20 01:05:38,504 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:05:38,514 INFO tpps_reducer - 20210720010538G_UID_SET
+2021-07-20 01:05:38,519 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:05:38,526 INFO tpps_reducer - 20210720010538G_UID_SET
+2021-07-20 01:05:38,538 INFO tpps_reducer - 15TPPS_EDIT_HEIGHT
+2021-07-20 01:05:38,541 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:05:38,551 INFO tpps_reducer - 20210720010538G_UID_SET
+2021-07-20 01:05:38,557 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:05:38,561 INFO tpps_reducer - 20210720010538G_UID_SET
+2021-07-20 01:05:38,569 INFO tpps_reducer - falseTPPS_EDIT_PLOT_GRAPHS
+2021-07-20 01:05:38,571 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:05:38,576 INFO tpps_reducer - 20210720010538G_UID_SET
+2021-07-20 01:05:38,580 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:05:38,585 INFO tpps_reducer - 20210720010538G_UID_SET
+2021-07-20 01:05:38,594 INFO tpps_reducer - 0.05TPPS_EDIT_RESOLUTION
+2021-07-20 01:05:38,597 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:05:38,600 INFO tpps_reducer - 20210720010538G_UID_SET
+2021-07-20 01:05:38,603 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:05:38,609 INFO tpps_reducer - 20210720010538G_UID_SET
+2021-07-20 01:05:38,620 INFO tpps_reducer - 2TPPS_EDIT_SIMULATION_COUNT
+2021-07-20 01:05:38,625 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:05:38,628 INFO tpps_reducer - 20210720010538G_UID_SET
+2021-07-20 01:05:38,631 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:05:38,636 INFO tpps_reducer - 20210720010538G_UID_SET
+2021-07-20 01:05:38,647 INFO m_reducer - Saving Network..
+2021-07-20 01:07:32,701 INFO t_reducer - Training Started!
+2021-07-20 01:10:04,077 INFO LSTMDDToolBox - Log started at toolbox/logger/20210720011004.txt
+2021-07-20 01:10:04,084 INFO general_reducer - event is  TOOLBOX_OBSERVER_ATTACHED
+2021-07-20 01:10:04,091 INFO tpps_reducer - 20TPPS_EDIT_START_ANGLE
+2021-07-20 01:10:04,097 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:10:04,110 INFO tpps_reducer - 20210720011004G_UID_SET
+2021-07-20 01:10:04,118 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:10:04,127 INFO tpps_reducer - 20210720011004G_UID_SET
+2021-07-20 01:10:04,138 INFO tpps_reducer - 90TPPS_EDIT_END_ANGLE
+2021-07-20 01:10:04,143 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:10:04,153 INFO tpps_reducer - 20210720011004G_UID_SET
+2021-07-20 01:10:04,158 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:10:04,165 INFO tpps_reducer - 20210720011004G_UID_SET
+2021-07-20 01:10:04,172 INFO tpps_reducer - 10TPPS_EDIT_RADIUS
+2021-07-20 01:10:04,176 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:10:04,189 INFO tpps_reducer - 20210720011004G_UID_SET
+2021-07-20 01:10:04,193 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:10:04,202 INFO tpps_reducer - 20210720011004G_UID_SET
+2021-07-20 01:10:04,209 INFO tpps_reducer - 15TPPS_EDIT_HEIGHT
+2021-07-20 01:10:04,213 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:10:04,217 INFO tpps_reducer - 20210720011004G_UID_SET
+2021-07-20 01:10:04,221 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:10:04,225 INFO tpps_reducer - 20210720011004G_UID_SET
+2021-07-20 01:10:04,232 INFO tpps_reducer - falseTPPS_EDIT_PLOT_GRAPHS
+2021-07-20 01:10:04,234 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:10:04,238 INFO tpps_reducer - 20210720011004G_UID_SET
+2021-07-20 01:10:04,241 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:10:04,251 INFO tpps_reducer - 20210720011004G_UID_SET
+2021-07-20 01:10:04,257 INFO tpps_reducer - 0.05TPPS_EDIT_RESOLUTION
+2021-07-20 01:10:04,259 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:10:04,264 INFO tpps_reducer - 20210720011004G_UID_SET
+2021-07-20 01:10:04,267 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:10:04,271 INFO tpps_reducer - 20210720011004G_UID_SET
+2021-07-20 01:10:04,276 INFO tpps_reducer - 2TPPS_EDIT_SIMULATION_COUNT
+2021-07-20 01:10:04,281 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:10:04,285 INFO tpps_reducer - 20210720011004G_UID_SET
+2021-07-20 01:10:04,287 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:10:04,291 INFO tpps_reducer - 20210720011004G_UID_SET
+2021-07-20 01:10:04,301 INFO m_reducer - Saving Network..
+2021-07-20 01:10:11,561 INFO t_reducer - Training Started!
+2021-07-20 01:13:00,084 INFO mylstm - accuracy obtained from training = 0.93889
+2021-07-20 01:13:00,108 INFO m_reducer - Saving Network..
+2021-07-20 01:13:00,118 INFO mt_reducer - Obtaining radius testdata....
+2021-07-20 01:13:00,128 INFO mt_reducer - Obtaining radius testclasses....
+2021-07-20 01:13:00,136 INFO mt_reducer - Obtaining radius classespred....
+2021-07-20 01:13:00,150 INFO m_reducer - Saving Network..
+2021-07-20 01:36:05,737 INFO LSTMDDToolBox - Log started at toolbox/logger/20210720013605.txt
+2021-07-20 01:36:05,745 INFO general_reducer - event is  TOOLBOX_OBSERVER_ATTACHED
+2021-07-20 01:36:05,754 INFO tpps_reducer - 20TPPS_EDIT_START_ANGLE
+2021-07-20 01:36:05,758 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:36:05,777 INFO tpps_reducer - 20210720013605G_UID_SET
+2021-07-20 01:36:05,782 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:36:05,798 INFO tpps_reducer - 20210720013605G_UID_SET
+2021-07-20 01:36:05,815 INFO tpps_reducer - 90TPPS_EDIT_END_ANGLE
+2021-07-20 01:36:05,818 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:36:05,824 INFO tpps_reducer - 20210720013605G_UID_SET
+2021-07-20 01:36:05,827 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:36:05,833 INFO tpps_reducer - 20210720013605G_UID_SET
+2021-07-20 01:36:05,849 INFO tpps_reducer - 10TPPS_EDIT_RADIUS
+2021-07-20 01:36:05,852 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:36:05,857 INFO tpps_reducer - 20210720013605G_UID_SET
+2021-07-20 01:36:05,860 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:36:05,864 INFO tpps_reducer - 20210720013605G_UID_SET
+2021-07-20 01:36:05,870 INFO tpps_reducer - 15TPPS_EDIT_HEIGHT
+2021-07-20 01:36:05,873 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:36:05,883 INFO tpps_reducer - 20210720013605G_UID_SET
+2021-07-20 01:36:05,886 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:36:05,891 INFO tpps_reducer - 20210720013605G_UID_SET
+2021-07-20 01:36:05,902 INFO tpps_reducer - falseTPPS_EDIT_PLOT_GRAPHS
+2021-07-20 01:36:05,906 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:36:05,916 INFO tpps_reducer - 20210720013605G_UID_SET
+2021-07-20 01:36:05,920 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:36:05,925 INFO tpps_reducer - 20210720013605G_UID_SET
+2021-07-20 01:36:05,936 INFO tpps_reducer - 0.05TPPS_EDIT_RESOLUTION
+2021-07-20 01:36:05,939 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:36:05,943 INFO tpps_reducer - 20210720013605G_UID_SET
+2021-07-20 01:36:05,948 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:36:05,952 INFO tpps_reducer - 20210720013605G_UID_SET
+2021-07-20 01:36:05,959 INFO tpps_reducer - 2TPPS_EDIT_SIMULATION_COUNT
+2021-07-20 01:36:05,965 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:36:05,969 INFO tpps_reducer - 20210720013605G_UID_SET
+2021-07-20 01:36:05,973 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:36:05,986 INFO tpps_reducer - 20210720013605G_UID_SET
+2021-07-20 01:36:05,999 INFO m_reducer - Saving Network..
+2021-07-20 01:36:33,807 INFO t_reducer - Training Started!
+2021-07-20 01:36:39,095 INFO tps_reducer - Training radius dataset prepared!
+2021-07-20 01:36:39,104 WARN tps_reducer - Training radius description modification not implemented!
+2021-07-20 01:36:39,123 INFO tps_reducer - Training radius classes prepared!
+2021-07-20 01:38:04,908 INFO mylstm - accuracy obtained from training = 0.90556
+2021-07-20 01:38:04,916 INFO m_reducer - Saving Network..
+2021-07-20 01:38:04,927 INFO mt_reducer - Obtaining radius testdata....
+2021-07-20 01:38:04,940 INFO mt_reducer - Obtaining radius testclasses....
+2021-07-20 01:38:04,955 INFO mt_reducer - Obtaining radius classespred....
+2021-07-20 01:38:04,964 INFO m_reducer - Saving Network..
+2021-07-20 01:42:23,592 INFO LSTMDDToolBox - Log started at toolbox/logger/20210720014223.txt
+2021-07-20 01:42:23,597 INFO general_reducer - event is  TOOLBOX_OBSERVER_ATTACHED
+2021-07-20 01:42:23,603 INFO tpps_reducer - 20TPPS_EDIT_START_ANGLE
+2021-07-20 01:42:23,606 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:42:23,623 INFO tpps_reducer - 20210720014223G_UID_SET
+2021-07-20 01:42:23,627 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:42:23,637 INFO tpps_reducer - 20210720014223G_UID_SET
+2021-07-20 01:42:23,649 INFO tpps_reducer - 90TPPS_EDIT_END_ANGLE
+2021-07-20 01:42:23,653 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:42:23,659 INFO tpps_reducer - 20210720014223G_UID_SET
+2021-07-20 01:42:23,662 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:42:23,666 INFO tpps_reducer - 20210720014223G_UID_SET
+2021-07-20 01:42:23,671 INFO tpps_reducer - 10TPPS_EDIT_RADIUS
+2021-07-20 01:42:23,674 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:42:23,682 INFO tpps_reducer - 20210720014223G_UID_SET
+2021-07-20 01:42:23,687 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:42:23,693 INFO tpps_reducer - 20210720014223G_UID_SET
+2021-07-20 01:42:23,701 INFO tpps_reducer - 15TPPS_EDIT_HEIGHT
+2021-07-20 01:42:23,704 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:42:23,709 INFO tpps_reducer - 20210720014223G_UID_SET
+2021-07-20 01:42:23,713 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:42:23,717 INFO tpps_reducer - 20210720014223G_UID_SET
+2021-07-20 01:42:23,723 INFO tpps_reducer - falseTPPS_EDIT_PLOT_GRAPHS
+2021-07-20 01:42:23,726 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:42:23,730 INFO tpps_reducer - 20210720014223G_UID_SET
+2021-07-20 01:42:23,733 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:42:23,737 INFO tpps_reducer - 20210720014223G_UID_SET
+2021-07-20 01:42:23,743 INFO tpps_reducer - 0.05TPPS_EDIT_RESOLUTION
+2021-07-20 01:42:23,747 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:42:23,756 INFO tpps_reducer - 20210720014223G_UID_SET
+2021-07-20 01:42:23,759 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:42:23,763 INFO tpps_reducer - 20210720014223G_UID_SET
+2021-07-20 01:42:23,770 INFO tpps_reducer - 2TPPS_EDIT_SIMULATION_COUNT
+2021-07-20 01:42:23,772 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-20 01:42:23,776 INFO tpps_reducer - 20210720014223G_UID_SET
+2021-07-20 01:42:23,779 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-20 01:42:23,782 INFO tpps_reducer - 20210720014223G_UID_SET
+2021-07-20 01:42:23,789 INFO m_reducer - Saving Network..
+2021-07-20 01:42:38,008 INFO t_reducer - Training Started!
+2021-07-20 01:42:45,970 INFO tps_reducer - Training radius dataset prepared!
+2021-07-20 01:42:45,982 WARN tps_reducer - Training radius description modification not implemented!
+2021-07-20 01:42:45,998 INFO tps_reducer - Training radius classes prepared!
+2021-07-20 01:44:15,273 INFO mylstm - accuracy obtained from training = 0.93333
+2021-07-20 01:44:15,287 INFO m_reducer - Saving Network..
+2021-07-20 01:44:15,312 INFO mt_reducer - Obtaining radius testdata....
+2021-07-20 01:44:15,325 INFO mt_reducer - Obtaining radius testclasses....
+2021-07-20 01:44:15,340 INFO mt_reducer - Obtaining radius classespred....
+2021-07-20 01:44:15,347 INFO m_reducer - Saving Network..
+2021-07-20 14:14:54,684 INFO LSTMDDToolBox - Log started at toolbox/logger/20210720141453.txt
+2021-07-20 14:14:57,941 INFO general_reducer - event is  TOOLBOX_OBSERVER_ATTACHED
+2021-07-20 14:14:58,316 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_START_ANGLE : 20
+2021-07-20 14:14:58,441 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141458
+2021-07-20 14:14:58,520 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141458
+2021-07-20 14:14:58,770 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_END_ANGLE : 90
+2021-07-20 14:14:58,832 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141458
+2021-07-20 14:14:58,895 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141458
+2021-07-20 14:14:58,941 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_RADIUS : 10
+2021-07-20 14:14:59,020 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141459
+2021-07-20 14:14:59,020 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141459
+2021-07-20 14:14:59,223 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_HEIGHT : 15
+2021-07-20 14:14:59,238 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141459
+2021-07-20 14:14:59,254 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141459
+2021-07-20 14:14:59,316 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_PLOT_GRAPHS : false
+2021-07-20 14:14:59,337 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141459
+2021-07-20 14:14:59,368 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141459
+2021-07-20 14:14:59,446 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_RESOLUTION : 0.05
+2021-07-20 14:14:59,462 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141459
+2021-07-20 14:14:59,478 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141459
+2021-07-20 14:14:59,493 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_SIMULATION_COUNT : 2
+2021-07-20 14:14:59,509 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141459
+2021-07-20 14:14:59,509 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141459
+2021-07-20 14:18:11,309 INFO LSTMDDToolBox - Log started at toolbox/logger/20210720141811.txt
+2021-07-20 14:18:11,317 INFO general_reducer - event is  TOOLBOX_OBSERVER_ATTACHED
+2021-07-20 14:18:11,321 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_START_ANGLE : 20
+2021-07-20 14:18:11,329 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141811
+2021-07-20 14:18:11,337 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141811
+2021-07-20 14:18:11,337 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_END_ANGLE : 90
+2021-07-20 14:18:11,337 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141811
+2021-07-20 14:18:11,353 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141811
+2021-07-20 14:18:11,353 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_RADIUS : 10
+2021-07-20 14:18:11,353 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141811
+2021-07-20 14:18:11,368 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141811
+2021-07-20 14:18:11,368 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_HEIGHT : 15
+2021-07-20 14:18:11,368 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141811
+2021-07-20 14:18:11,368 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141811
+2021-07-20 14:18:11,384 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_PLOT_GRAPHS : false
+2021-07-20 14:18:11,384 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141811
+2021-07-20 14:18:11,384 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141811
+2021-07-20 14:18:11,384 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_RESOLUTION : 0.05
+2021-07-20 14:18:11,399 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141811
+2021-07-20 14:18:11,399 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141811
+2021-07-20 14:18:11,399 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_SIMULATION_COUNT : 2
+2021-07-20 14:18:11,399 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141811
+2021-07-20 14:18:11,415 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210720141811
+2021-07-20 14:21:53,341 INFO t_reducer - Training Started!
+2021-07-20 14:22:07,776 INFO tps_reducer - Training radius dataset prepared!
+2021-07-20 14:22:07,854 WARN tps_reducer - Training radius description modification not implemented!
+2021-07-20 14:22:07,870 INFO tps_reducer - Training radius classes prepared!

@@ -1,0 +1,1722 @@
+2021-07-21 03:10:03,093 INFO LSTMDDToolBox - Log started at toolbox/logger/20210721031002.txt
+2021-07-21 03:10:03,384 INFO general_reducer - event is  TOOLBOX_OBSERVER_ATTACHED
+2021-07-21 03:10:03,676 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_START_ANGLE : 20
+2021-07-21 03:10:03,905 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721031003
+2021-07-21 03:10:04,138 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721031003
+2021-07-21 03:10:04,380 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_END_ANGLE : 90
+2021-07-21 03:10:04,618 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721031004
+2021-07-21 03:10:04,857 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721031004
+2021-07-21 03:10:05,098 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_RADIUS : 10
+2021-07-21 03:10:05,352 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721031005
+2021-07-21 03:10:05,613 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721031005
+2021-07-21 03:10:05,854 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_HEIGHT : 15
+2021-07-21 03:10:06,088 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721031005
+2021-07-21 03:10:06,358 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721031006
+2021-07-21 03:10:06,564 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_PLOT_GRAPHS : false
+2021-07-21 03:10:06,776 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721031006
+2021-07-21 03:10:07,023 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721031006
+2021-07-21 03:10:07,241 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_RESOLUTION : 0.05
+2021-07-21 03:10:07,443 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721031007
+2021-07-21 03:10:07,725 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721031007
+2021-07-21 03:10:07,981 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_SIMULATION_COUNT : 2
+2021-07-21 03:10:08,223 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721031007
+2021-07-21 03:10:08,501 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721031008
+2021-07-21 03:10:20,186 INFO t_reducer - Training Started!
+2021-07-21 03:10:24,302 INFO tps_reducer - Training radius dataset prepared!
+2021-07-21 03:10:24,540 WARN tps_reducer - Training radius description modification not implemented!
+2021-07-21 03:10:24,761 INFO tps_reducer - Training radius classes prepared!
+2021-07-21 03:10:24,958 INFO mylstm2 - running dataset visualisation
+2021-07-21 03:10:25,205 DEBUG dloc_data_prep - resolution of model = 0.05
+2021-07-21 03:10:25,391 DEBUG dloc_data_prep - radius of model = 10
+2021-07-21 03:10:25,587 DEBUG dloc_data_prep - height of model = 30
+2021-07-21 03:10:25,944 DEBUG dloc_data_prep - plotting
+2021-07-21 03:10:26,116 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:26,332 DEBUG dloc_data_prep - error slice 1 data size: 0 175
+2021-07-21 03:10:26,567 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:26,766 DEBUG dloc_data_prep - error slice 2 data size: 0 175
+2021-07-21 03:10:27,021 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:27,247 DEBUG dloc_data_prep - error slice 3 data size: 0 175
+2021-07-21 03:10:27,440 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:27,677 DEBUG dloc_data_prep - error slice 4 data size: 0 175
+2021-07-21 03:10:27,863 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:28,062 DEBUG dloc_data_prep - error slice 5 data size: 0 175
+2021-07-21 03:10:28,228 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:28,415 DEBUG dloc_data_prep - error slice 6 data size: 0 175
+2021-07-21 03:10:28,646 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:28,884 DEBUG dloc_data_prep - error slice 7 data size: 0 175
+2021-07-21 03:10:29,129 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:29,388 DEBUG dloc_data_prep - error slice 8 data size: 0 175
+2021-07-21 03:10:29,584 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:29,780 DEBUG dloc_data_prep - error slice 9 data size: 0 175
+2021-07-21 03:10:29,959 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:30,163 DEBUG dloc_data_prep - error slice 10 data size: 0 175
+2021-07-21 03:10:30,369 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:30,619 DEBUG dloc_data_prep - error slice 11 data size: 0 175
+2021-07-21 03:10:30,832 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:31,062 DEBUG dloc_data_prep - error slice 12 data size: 0 175
+2021-07-21 03:10:31,293 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:31,526 DEBUG dloc_data_prep - error slice 13 data size: 0 175
+2021-07-21 03:10:31,764 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:32,001 DEBUG dloc_data_prep - error slice 14 data size: 0 175
+2021-07-21 03:10:32,273 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:32,569 DEBUG dloc_data_prep - error slice 15 data size: 0 175
+2021-07-21 03:10:32,816 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:33,067 DEBUG dloc_data_prep - error slice 16 data size: 0 175
+2021-07-21 03:10:33,261 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:33,472 DEBUG dloc_data_prep - error slice 17 data size: 0 175
+2021-07-21 03:10:33,700 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:33,927 DEBUG dloc_data_prep - error slice 18 data size: 0 175
+2021-07-21 03:10:34,173 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:34,409 DEBUG dloc_data_prep - error slice 19 data size: 0 175
+2021-07-21 03:10:34,640 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:34,833 DEBUG dloc_data_prep - error slice 20 data size: 0 175
+2021-07-21 03:10:35,075 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:35,331 DEBUG dloc_data_prep - error slice 21 data size: 0 175
+2021-07-21 03:10:35,581 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:35,768 DEBUG dloc_data_prep - error slice 22 data size: 0 175
+2021-07-21 03:10:35,992 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:36,199 DEBUG dloc_data_prep - error slice 23 data size: 0 175
+2021-07-21 03:10:36,410 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:36,673 DEBUG dloc_data_prep - error slice 24 data size: 0 175
+2021-07-21 03:10:36,890 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:37,146 DEBUG dloc_data_prep - error slice 25 data size: 0 175
+2021-07-21 03:10:37,403 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:37,628 DEBUG dloc_data_prep - error slice 26 data size: 0 175
+2021-07-21 03:10:37,884 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:38,128 DEBUG dloc_data_prep - error slice 27 data size: 0 175
+2021-07-21 03:10:38,386 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:38,624 DEBUG dloc_data_prep - error slice 28 data size: 0 175
+2021-07-21 03:10:38,804 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:39,029 DEBUG dloc_data_prep - error slice 29 data size: 0 175
+2021-07-21 03:10:39,265 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:39,501 DEBUG dloc_data_prep - error slice 30 data size: 0 175
+2021-07-21 03:10:39,733 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:39,948 DEBUG dloc_data_prep - error slice 31 data size: 0 175
+2021-07-21 03:10:40,146 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:40,433 DEBUG dloc_data_prep - error slice 32 data size: 0 175
+2021-07-21 03:10:40,654 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:40,868 DEBUG dloc_data_prep - error slice 33 data size: 0 175
+2021-07-21 03:10:41,083 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:41,321 DEBUG dloc_data_prep - error slice 34 data size: 0 175
+2021-07-21 03:10:41,521 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:41,785 DEBUG dloc_data_prep - error slice 35 data size: 0 175
+2021-07-21 03:10:42,024 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:42,207 DEBUG dloc_data_prep - error slice 36 data size: 0 175
+2021-07-21 03:10:42,459 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:42,669 DEBUG dloc_data_prep - error slice 37 data size: 0 175
+2021-07-21 03:10:42,877 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:43,092 DEBUG dloc_data_prep - error slice 38 data size: 0 175
+2021-07-21 03:10:43,340 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:43,557 DEBUG dloc_data_prep - error slice 39 data size: 0 175
+2021-07-21 03:10:43,823 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:44,017 DEBUG dloc_data_prep - error slice 40 data size: 0 175
+2021-07-21 03:10:44,225 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:44,461 DEBUG dloc_data_prep - error slice 41 data size: 0 175
+2021-07-21 03:10:44,715 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:44,929 DEBUG dloc_data_prep - error slice 42 data size: 0 175
+2021-07-21 03:10:45,243 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:45,505 DEBUG dloc_data_prep - error slice 43 data size: 0 175
+2021-07-21 03:10:45,746 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:45,959 DEBUG dloc_data_prep - error slice 44 data size: 0 175
+2021-07-21 03:10:46,188 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:46,379 DEBUG dloc_data_prep - error slice 45 data size: 0 175
+2021-07-21 03:10:46,613 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:46,824 DEBUG dloc_data_prep - error slice 46 data size: 0 175
+2021-07-21 03:10:47,044 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:47,305 DEBUG dloc_data_prep - error slice 47 data size: 0 175
+2021-07-21 03:10:47,539 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:47,733 DEBUG dloc_data_prep - error slice 48 data size: 0 175
+2021-07-21 03:10:47,979 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:48,207 DEBUG dloc_data_prep - error slice 49 data size: 0 175
+2021-07-21 03:10:48,421 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:48,662 DEBUG dloc_data_prep - error slice 50 data size: 0 175
+2021-07-21 03:10:48,865 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:49,053 DEBUG dloc_data_prep - error slice 51 data size: 0 175
+2021-07-21 03:10:49,251 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:49,465 DEBUG dloc_data_prep - error slice 52 data size: 0 175
+2021-07-21 03:10:49,757 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:49,974 DEBUG dloc_data_prep - error slice 53 data size: 0 175
+2021-07-21 03:10:50,184 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:50,397 DEBUG dloc_data_prep - error slice 54 data size: 0 175
+2021-07-21 03:10:50,593 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:50,793 DEBUG dloc_data_prep - error slice 55 data size: 0 175
+2021-07-21 03:10:51,026 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:51,244 DEBUG dloc_data_prep - error slice 56 data size: 0 175
+2021-07-21 03:10:51,465 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:51,694 DEBUG dloc_data_prep - error slice 57 data size: 0 175
+2021-07-21 03:10:51,934 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:52,194 DEBUG dloc_data_prep - error slice 58 data size: 0 175
+2021-07-21 03:10:52,485 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:52,820 DEBUG dloc_data_prep - error slice 59 data size: 0 175
+2021-07-21 03:10:53,069 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:53,304 DEBUG dloc_data_prep - error slice 60 data size: 0 175
+2021-07-21 03:10:53,551 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:53,773 DEBUG dloc_data_prep - error slice 61 data size: 0 175
+2021-07-21 03:10:54,017 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:54,253 DEBUG dloc_data_prep - error slice 62 data size: 0 175
+2021-07-21 03:10:54,426 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:54,693 DEBUG dloc_data_prep - error slice 63 data size: 0 175
+2021-07-21 03:10:54,887 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:55,076 DEBUG dloc_data_prep - error slice 64 data size: 0 175
+2021-07-21 03:10:55,302 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:55,493 DEBUG dloc_data_prep - error slice 65 data size: 0 175
+2021-07-21 03:10:55,733 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:56,005 DEBUG dloc_data_prep - error slice 66 data size: 0 175
+2021-07-21 03:10:56,263 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:56,495 DEBUG dloc_data_prep - error slice 67 data size: 0 175
+2021-07-21 03:10:56,722 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:56,979 DEBUG dloc_data_prep - error slice 68 data size: 0 175
+2021-07-21 03:10:57,188 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:57,428 DEBUG dloc_data_prep - error slice 69 data size: 0 175
+2021-07-21 03:10:57,664 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:57,869 DEBUG dloc_data_prep - error slice 70 data size: 0 175
+2021-07-21 03:10:58,114 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:58,362 DEBUG dloc_data_prep - error slice 71 data size: 0 175
+2021-07-21 03:10:58,574 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:58,826 DEBUG dloc_data_prep - error slice 72 data size: 0 175
+2021-07-21 03:10:59,059 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:59,269 DEBUG dloc_data_prep - error slice 73 data size: 0 175
+2021-07-21 03:10:59,449 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:10:59,677 DEBUG dloc_data_prep - error slice 74 data size: 0 175
+2021-07-21 03:10:59,948 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:00,161 DEBUG dloc_data_prep - error slice 75 data size: 0 175
+2021-07-21 03:11:00,408 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:00,644 DEBUG dloc_data_prep - error slice 76 data size: 0 175
+2021-07-21 03:11:00,919 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:01,183 DEBUG dloc_data_prep - error slice 77 data size: 0 175
+2021-07-21 03:11:01,405 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:01,590 DEBUG dloc_data_prep - error slice 78 data size: 0 175
+2021-07-21 03:11:01,826 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:02,106 DEBUG dloc_data_prep - error slice 79 data size: 0 175
+2021-07-21 03:11:02,374 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:02,622 DEBUG dloc_data_prep - error slice 80 data size: 0 175
+2021-07-21 03:11:02,854 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:03,104 DEBUG dloc_data_prep - error slice 81 data size: 0 175
+2021-07-21 03:11:03,339 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:03,557 DEBUG dloc_data_prep - error slice 82 data size: 0 175
+2021-07-21 03:11:03,817 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:04,043 DEBUG dloc_data_prep - error slice 83 data size: 0 175
+2021-07-21 03:11:04,280 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:04,472 DEBUG dloc_data_prep - error slice 84 data size: 0 175
+2021-07-21 03:11:04,682 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:04,918 DEBUG dloc_data_prep - error slice 85 data size: 0 175
+2021-07-21 03:11:05,175 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:05,437 DEBUG dloc_data_prep - error slice 86 data size: 0 175
+2021-07-21 03:11:05,631 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:05,877 DEBUG dloc_data_prep - error slice 87 data size: 0 175
+2021-07-21 03:11:06,074 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:06,256 DEBUG dloc_data_prep - error slice 88 data size: 0 175
+2021-07-21 03:11:06,477 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:06,693 DEBUG dloc_data_prep - error slice 89 data size: 0 175
+2021-07-21 03:11:06,874 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:07,109 DEBUG dloc_data_prep - error slice 90 data size: 0 175
+2021-07-21 03:11:07,353 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:07,632 DEBUG dloc_data_prep - error slice 91 data size: 0 175
+2021-07-21 03:11:07,898 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:08,150 DEBUG dloc_data_prep - error slice 92 data size: 0 175
+2021-07-21 03:11:08,391 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:08,641 DEBUG dloc_data_prep - error slice 93 data size: 0 175
+2021-07-21 03:11:08,847 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:09,047 DEBUG dloc_data_prep - error slice 94 data size: 0 175
+2021-07-21 03:11:09,318 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:09,589 DEBUG dloc_data_prep - error slice 95 data size: 0 175
+2021-07-21 03:11:09,795 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:10,025 DEBUG dloc_data_prep - error slice 96 data size: 0 175
+2021-07-21 03:11:10,269 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:10,503 DEBUG dloc_data_prep - error slice 97 data size: 0 175
+2021-07-21 03:11:10,708 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:10,910 DEBUG dloc_data_prep - error slice 98 data size: 0 175
+2021-07-21 03:11:11,196 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:11,413 DEBUG dloc_data_prep - error slice 99 data size: 0 175
+2021-07-21 03:11:11,616 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:11,835 DEBUG dloc_data_prep - error slice 100 data size: 0 175
+2021-07-21 03:11:12,077 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:12,332 DEBUG dloc_data_prep - error slice 101 data size: 0 175
+2021-07-21 03:11:12,566 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:12,807 DEBUG dloc_data_prep - error slice 102 data size: 0 175
+2021-07-21 03:11:13,092 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:13,385 DEBUG dloc_data_prep - error slice 103 data size: 0 175
+2021-07-21 03:11:13,618 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:13,884 DEBUG dloc_data_prep - error slice 104 data size: 0 175
+2021-07-21 03:11:14,123 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:14,414 DEBUG dloc_data_prep - error slice 105 data size: 0 175
+2021-07-21 03:11:14,752 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:15,105 DEBUG dloc_data_prep - error slice 106 data size: 0 175
+2021-07-21 03:11:15,444 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:15,736 DEBUG dloc_data_prep - error slice 107 data size: 0 175
+2021-07-21 03:11:16,034 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:16,342 DEBUG dloc_data_prep - error slice 108 data size: 0 175
+2021-07-21 03:11:16,612 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:16,892 DEBUG dloc_data_prep - error slice 109 data size: 0 175
+2021-07-21 03:11:17,162 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:17,501 DEBUG dloc_data_prep - error slice 110 data size: 0 175
+2021-07-21 03:11:17,792 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:18,116 DEBUG dloc_data_prep - error slice 111 data size: 0 175
+2021-07-21 03:11:18,489 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:18,809 DEBUG dloc_data_prep - error slice 112 data size: 0 175
+2021-07-21 03:11:19,075 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:19,386 DEBUG dloc_data_prep - error slice 113 data size: 0 175
+2021-07-21 03:11:19,647 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:19,997 DEBUG dloc_data_prep - error slice 114 data size: 0 175
+2021-07-21 03:11:20,296 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:20,614 DEBUG dloc_data_prep - error slice 115 data size: 0 175
+2021-07-21 03:11:20,944 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:21,297 DEBUG dloc_data_prep - error slice 116 data size: 0 175
+2021-07-21 03:11:21,575 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:21,875 DEBUG dloc_data_prep - error slice 117 data size: 0 175
+2021-07-21 03:11:22,219 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:22,607 DEBUG dloc_data_prep - error slice 118 data size: 0 175
+2021-07-21 03:11:22,897 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:23,181 DEBUG dloc_data_prep - error slice 119 data size: 0 175
+2021-07-21 03:11:23,468 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:23,814 DEBUG dloc_data_prep - error slice 120 data size: 0 175
+2021-07-21 03:11:24,122 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:24,408 DEBUG dloc_data_prep - error slice 121 data size: 0 175
+2021-07-21 03:11:24,716 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:24,998 DEBUG dloc_data_prep - error slice 122 data size: 0 175
+2021-07-21 03:11:25,266 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:25,479 DEBUG dloc_data_prep - error slice 123 data size: 0 175
+2021-07-21 03:11:25,723 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:25,954 DEBUG dloc_data_prep - error slice 124 data size: 0 175
+2021-07-21 03:11:26,150 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:26,387 DEBUG dloc_data_prep - error slice 125 data size: 0 175
+2021-07-21 03:11:26,610 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:26,773 DEBUG dloc_data_prep - error slice 126 data size: 0 175
+2021-07-21 03:11:27,021 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:27,273 DEBUG dloc_data_prep - error slice 127 data size: 0 175
+2021-07-21 03:11:27,494 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:27,767 DEBUG dloc_data_prep - error slice 128 data size: 0 175
+2021-07-21 03:11:27,969 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:28,259 DEBUG dloc_data_prep - error slice 129 data size: 0 175
+2021-07-21 03:11:28,540 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:28,802 DEBUG dloc_data_prep - error slice 130 data size: 0 175
+2021-07-21 03:11:28,986 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:29,245 DEBUG dloc_data_prep - error slice 131 data size: 0 175
+2021-07-21 03:11:29,519 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:29,771 DEBUG dloc_data_prep - error slice 132 data size: 0 175
+2021-07-21 03:11:29,983 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:30,169 DEBUG dloc_data_prep - error slice 133 data size: 0 175
+2021-07-21 03:11:30,375 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:30,566 DEBUG dloc_data_prep - error slice 134 data size: 0 175
+2021-07-21 03:11:30,771 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:30,975 DEBUG dloc_data_prep - error slice 135 data size: 0 175
+2021-07-21 03:11:31,219 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:31,423 DEBUG dloc_data_prep - error slice 136 data size: 0 175
+2021-07-21 03:11:31,668 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:31,905 DEBUG dloc_data_prep - error slice 137 data size: 0 175
+2021-07-21 03:11:32,148 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:32,378 DEBUG dloc_data_prep - error slice 138 data size: 0 175
+2021-07-21 03:11:32,620 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:32,864 DEBUG dloc_data_prep - error slice 139 data size: 0 175
+2021-07-21 03:11:33,077 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:33,309 DEBUG dloc_data_prep - error slice 140 data size: 0 175
+2021-07-21 03:11:33,524 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:33,811 DEBUG dloc_data_prep - error slice 141 data size: 0 175
+2021-07-21 03:11:34,106 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:34,335 DEBUG dloc_data_prep - error slice 142 data size: 0 175
+2021-07-21 03:11:34,595 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:34,874 DEBUG dloc_data_prep - error slice 143 data size: 0 175
+2021-07-21 03:11:35,111 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:35,415 DEBUG dloc_data_prep - error slice 144 data size: 0 175
+2021-07-21 03:11:35,649 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:35,932 DEBUG dloc_data_prep - error slice 145 data size: 0 175
+2021-07-21 03:11:36,252 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:36,563 DEBUG dloc_data_prep - error slice 146 data size: 0 175
+2021-07-21 03:11:36,856 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:37,147 DEBUG dloc_data_prep - error slice 147 data size: 0 175
+2021-07-21 03:11:37,440 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:37,780 DEBUG dloc_data_prep - error slice 148 data size: 0 175
+2021-07-21 03:11:38,033 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:38,283 DEBUG dloc_data_prep - error slice 149 data size: 0 175
+2021-07-21 03:11:38,568 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:38,869 DEBUG dloc_data_prep - error slice 150 data size: 0 175
+2021-07-21 03:11:39,138 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:39,382 DEBUG dloc_data_prep - error slice 151 data size: 0 175
+2021-07-21 03:11:39,638 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:39,923 DEBUG dloc_data_prep - error slice 152 data size: 0 175
+2021-07-21 03:11:40,177 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:40,461 DEBUG dloc_data_prep - error slice 153 data size: 0 175
+2021-07-21 03:11:40,701 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:40,978 DEBUG dloc_data_prep - error slice 154 data size: 0 175
+2021-07-21 03:11:41,228 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:41,485 DEBUG dloc_data_prep - error slice 155 data size: 0 175
+2021-07-21 03:11:41,769 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:42,019 DEBUG dloc_data_prep - error slice 156 data size: 0 175
+2021-07-21 03:11:42,364 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:42,670 DEBUG dloc_data_prep - error slice 157 data size: 0 175
+2021-07-21 03:11:42,973 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:43,249 DEBUG dloc_data_prep - error slice 158 data size: 0 175
+2021-07-21 03:11:43,544 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:43,797 DEBUG dloc_data_prep - error slice 159 data size: 0 175
+2021-07-21 03:11:44,084 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:44,318 DEBUG dloc_data_prep - error slice 160 data size: 0 175
+2021-07-21 03:11:44,663 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:44,975 DEBUG dloc_data_prep - error slice 161 data size: 0 175
+2021-07-21 03:11:45,286 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:45,574 DEBUG dloc_data_prep - error slice 162 data size: 0 175
+2021-07-21 03:11:45,823 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:46,107 DEBUG dloc_data_prep - error slice 163 data size: 0 175
+2021-07-21 03:11:46,366 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:46,653 DEBUG dloc_data_prep - error slice 164 data size: 0 175
+2021-07-21 03:11:46,882 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:47,190 DEBUG dloc_data_prep - error slice 165 data size: 0 175
+2021-07-21 03:11:47,480 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:47,740 DEBUG dloc_data_prep - error slice 166 data size: 0 175
+2021-07-21 03:11:48,038 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:48,320 DEBUG dloc_data_prep - error slice 167 data size: 0 175
+2021-07-21 03:11:48,615 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:48,863 DEBUG dloc_data_prep - error slice 168 data size: 0 175
+2021-07-21 03:11:49,141 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:49,463 DEBUG dloc_data_prep - error slice 169 data size: 0 175
+2021-07-21 03:11:49,881 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:50,168 DEBUG dloc_data_prep - error slice 170 data size: 0 175
+2021-07-21 03:11:50,497 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:50,774 DEBUG dloc_data_prep - error slice 171 data size: 0 175
+2021-07-21 03:11:50,999 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:51,281 DEBUG dloc_data_prep - error slice 172 data size: 0 175
+2021-07-21 03:11:51,586 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:51,837 DEBUG dloc_data_prep - error slice 173 data size: 0 175
+2021-07-21 03:11:52,145 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:52,372 DEBUG dloc_data_prep - error slice 174 data size: 0 175
+2021-07-21 03:11:52,601 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:52,862 DEBUG dloc_data_prep - error slice 175 data size: 0 175
+2021-07-21 03:11:53,116 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:53,378 DEBUG dloc_data_prep - error slice 176 data size: 0 175
+2021-07-21 03:11:53,689 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:53,948 DEBUG dloc_data_prep - error slice 177 data size: 0 175
+2021-07-21 03:11:54,229 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:54,493 DEBUG dloc_data_prep - error slice 178 data size: 0 175
+2021-07-21 03:11:54,760 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:54,943 DEBUG dloc_data_prep - error slice 179 data size: 0 175
+2021-07-21 03:11:55,250 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:55,585 DEBUG dloc_data_prep - error slice 180 data size: 0 175
+2021-07-21 03:11:55,831 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:56,111 DEBUG dloc_data_prep - error slice 181 data size: 0 175
+2021-07-21 03:11:56,344 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:56,587 DEBUG dloc_data_prep - error slice 182 data size: 0 175
+2021-07-21 03:11:56,763 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:56,987 DEBUG dloc_data_prep - error slice 183 data size: 0 175
+2021-07-21 03:11:57,245 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:57,411 DEBUG dloc_data_prep - error slice 184 data size: 0 175
+2021-07-21 03:11:57,631 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:57,865 DEBUG dloc_data_prep - error slice 185 data size: 0 175
+2021-07-21 03:11:58,080 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:58,327 DEBUG dloc_data_prep - error slice 186 data size: 0 175
+2021-07-21 03:11:58,659 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:11:59,507 DEBUG dloc_data_prep - error slice 187 data size: 0 175
+2021-07-21 03:12:00,277 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:00,566 DEBUG dloc_data_prep - error slice 188 data size: 0 175
+2021-07-21 03:12:00,803 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:01,042 DEBUG dloc_data_prep - error slice 189 data size: 0 175
+2021-07-21 03:12:01,269 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:01,559 DEBUG dloc_data_prep - error slice 190 data size: 0 175
+2021-07-21 03:12:01,760 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:02,042 DEBUG dloc_data_prep - error slice 191 data size: 0 175
+2021-07-21 03:12:02,240 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:02,475 DEBUG dloc_data_prep - error slice 192 data size: 0 175
+2021-07-21 03:12:02,701 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:02,992 DEBUG dloc_data_prep - error slice 193 data size: 0 175
+2021-07-21 03:12:03,245 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:03,512 DEBUG dloc_data_prep - error slice 194 data size: 0 175
+2021-07-21 03:12:03,755 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:04,015 DEBUG dloc_data_prep - error slice 195 data size: 0 175
+2021-07-21 03:12:04,213 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:04,437 DEBUG dloc_data_prep - error slice 196 data size: 0 175
+2021-07-21 03:12:04,639 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:04,913 DEBUG dloc_data_prep - error slice 197 data size: 0 175
+2021-07-21 03:12:05,124 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:05,343 DEBUG dloc_data_prep - error slice 198 data size: 0 175
+2021-07-21 03:12:05,574 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:05,814 DEBUG dloc_data_prep - error slice 199 data size: 0 175
+2021-07-21 03:12:06,039 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:06,250 DEBUG dloc_data_prep - error slice 202 data size: 0 175
+2021-07-21 03:12:06,445 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:06,701 DEBUG dloc_data_prep - error slice 203 data size: 0 175
+2021-07-21 03:12:06,970 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:07,225 DEBUG dloc_data_prep - error slice 204 data size: 0 175
+2021-07-21 03:12:07,413 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:07,599 DEBUG dloc_data_prep - error slice 205 data size: 0 175
+2021-07-21 03:12:07,833 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:08,080 DEBUG dloc_data_prep - error slice 206 data size: 0 175
+2021-07-21 03:12:08,335 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:08,615 DEBUG dloc_data_prep - error slice 207 data size: 0 175
+2021-07-21 03:12:08,849 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:09,064 DEBUG dloc_data_prep - error slice 208 data size: 0 175
+2021-07-21 03:12:09,264 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:09,494 DEBUG dloc_data_prep - error slice 209 data size: 0 175
+2021-07-21 03:12:09,700 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:09,923 DEBUG dloc_data_prep - error slice 210 data size: 0 175
+2021-07-21 03:12:10,286 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:10,543 DEBUG dloc_data_prep - error slice 211 data size: 0 175
+2021-07-21 03:12:10,776 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:11,046 DEBUG dloc_data_prep - error slice 212 data size: 0 175
+2021-07-21 03:12:11,242 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:11,492 DEBUG dloc_data_prep - error slice 213 data size: 0 175
+2021-07-21 03:12:11,745 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:11,977 DEBUG dloc_data_prep - error slice 214 data size: 0 175
+2021-07-21 03:12:12,193 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:12,444 DEBUG dloc_data_prep - error slice 215 data size: 0 175
+2021-07-21 03:12:12,680 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:12,893 DEBUG dloc_data_prep - error slice 216 data size: 0 175
+2021-07-21 03:12:13,133 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:13,382 DEBUG dloc_data_prep - error slice 217 data size: 0 175
+2021-07-21 03:12:13,620 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:13,804 DEBUG dloc_data_prep - error slice 218 data size: 0 175
+2021-07-21 03:12:14,070 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:14,275 DEBUG dloc_data_prep - error slice 219 data size: 0 175
+2021-07-21 03:12:14,491 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:14,744 DEBUG dloc_data_prep - error slice 220 data size: 0 175
+2021-07-21 03:12:14,952 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:15,176 DEBUG dloc_data_prep - error slice 221 data size: 0 175
+2021-07-21 03:12:15,377 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:15,562 DEBUG dloc_data_prep - error slice 222 data size: 0 175
+2021-07-21 03:12:15,780 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:15,972 DEBUG dloc_data_prep - error slice 223 data size: 0 175
+2021-07-21 03:12:16,187 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:16,401 DEBUG dloc_data_prep - error slice 224 data size: 0 175
+2021-07-21 03:12:16,624 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:16,854 DEBUG dloc_data_prep - error slice 225 data size: 0 175
+2021-07-21 03:12:17,104 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:17,370 DEBUG dloc_data_prep - error slice 226 data size: 0 175
+2021-07-21 03:12:17,605 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:17,830 DEBUG dloc_data_prep - error slice 227 data size: 0 175
+2021-07-21 03:12:18,049 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:18,225 DEBUG dloc_data_prep - error slice 228 data size: 0 175
+2021-07-21 03:12:18,477 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:18,766 DEBUG dloc_data_prep - error slice 229 data size: 0 175
+2021-07-21 03:12:19,167 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:19,589 DEBUG dloc_data_prep - error slice 230 data size: 0 175
+2021-07-21 03:12:19,778 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:20,000 DEBUG dloc_data_prep - error slice 231 data size: 0 175
+2021-07-21 03:12:20,235 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:20,424 DEBUG dloc_data_prep - error slice 232 data size: 0 175
+2021-07-21 03:12:20,609 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:20,850 DEBUG dloc_data_prep - error slice 233 data size: 0 175
+2021-07-21 03:12:21,049 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:21,255 DEBUG dloc_data_prep - error slice 234 data size: 0 175
+2021-07-21 03:12:21,434 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:21,674 DEBUG dloc_data_prep - error slice 235 data size: 0 175
+2021-07-21 03:12:21,952 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:22,195 DEBUG dloc_data_prep - error slice 236 data size: 0 175
+2021-07-21 03:12:22,420 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:22,698 DEBUG dloc_data_prep - error slice 237 data size: 0 175
+2021-07-21 03:12:22,958 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:23,172 DEBUG dloc_data_prep - error slice 238 data size: 0 175
+2021-07-21 03:12:23,358 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:23,572 DEBUG dloc_data_prep - error slice 239 data size: 0 175
+2021-07-21 03:12:23,812 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:23,997 DEBUG dloc_data_prep - error slice 240 data size: 0 175
+2021-07-21 03:12:24,243 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:24,455 DEBUG dloc_data_prep - error slice 241 data size: 0 175
+2021-07-21 03:12:24,683 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:24,915 DEBUG dloc_data_prep - error slice 242 data size: 0 175
+2021-07-21 03:12:25,140 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:25,348 DEBUG dloc_data_prep - error slice 243 data size: 0 175
+2021-07-21 03:12:25,625 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:25,862 DEBUG dloc_data_prep - error slice 244 data size: 0 175
+2021-07-21 03:12:26,066 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:26,304 DEBUG dloc_data_prep - error slice 245 data size: 0 175
+2021-07-21 03:12:26,501 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:26,723 DEBUG dloc_data_prep - error slice 246 data size: 0 175
+2021-07-21 03:12:26,911 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:27,135 DEBUG dloc_data_prep - error slice 247 data size: 0 175
+2021-07-21 03:12:27,322 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:27,545 DEBUG dloc_data_prep - error slice 248 data size: 0 175
+2021-07-21 03:12:27,743 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:27,984 DEBUG dloc_data_prep - error slice 249 data size: 0 175
+2021-07-21 03:12:28,249 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:28,494 DEBUG dloc_data_prep - error slice 250 data size: 0 175
+2021-07-21 03:12:28,696 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:29,019 DEBUG dloc_data_prep - error slice 251 data size: 0 175
+2021-07-21 03:12:29,242 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:29,493 DEBUG dloc_data_prep - error slice 252 data size: 0 175
+2021-07-21 03:12:29,701 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:29,932 DEBUG dloc_data_prep - error slice 253 data size: 0 175
+2021-07-21 03:12:30,155 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:30,390 DEBUG dloc_data_prep - error slice 254 data size: 0 175
+2021-07-21 03:12:30,621 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:30,833 DEBUG dloc_data_prep - error slice 255 data size: 0 175
+2021-07-21 03:12:31,096 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:31,356 DEBUG dloc_data_prep - error slice 256 data size: 0 175
+2021-07-21 03:12:31,550 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:31,781 DEBUG dloc_data_prep - error slice 257 data size: 0 175
+2021-07-21 03:12:32,043 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:32,290 DEBUG dloc_data_prep - error slice 258 data size: 0 175
+2021-07-21 03:12:32,508 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:32,735 DEBUG dloc_data_prep - error slice 259 data size: 0 175
+2021-07-21 03:12:32,989 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:33,249 DEBUG dloc_data_prep - error slice 260 data size: 0 175
+2021-07-21 03:12:33,461 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:33,690 DEBUG dloc_data_prep - error slice 261 data size: 0 175
+2021-07-21 03:12:33,969 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:34,315 DEBUG dloc_data_prep - error slice 262 data size: 0 175
+2021-07-21 03:12:34,739 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:34,938 DEBUG dloc_data_prep - error slice 263 data size: 0 175
+2021-07-21 03:12:35,188 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:35,471 DEBUG dloc_data_prep - error slice 264 data size: 0 175
+2021-07-21 03:12:35,694 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:35,884 DEBUG dloc_data_prep - error slice 265 data size: 0 175
+2021-07-21 03:12:36,114 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:36,325 DEBUG dloc_data_prep - error slice 266 data size: 0 175
+2021-07-21 03:12:36,575 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:36,824 DEBUG dloc_data_prep - error slice 267 data size: 0 175
+2021-07-21 03:12:37,078 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:37,330 DEBUG dloc_data_prep - error slice 268 data size: 0 175
+2021-07-21 03:12:37,502 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:37,685 DEBUG dloc_data_prep - error slice 269 data size: 0 175
+2021-07-21 03:12:37,927 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:38,130 DEBUG dloc_data_prep - error slice 270 data size: 0 175
+2021-07-21 03:12:38,344 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:38,617 DEBUG dloc_data_prep - error slice 271 data size: 0 175
+2021-07-21 03:12:38,848 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:39,062 DEBUG dloc_data_prep - error slice 272 data size: 0 175
+2021-07-21 03:12:39,243 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:39,438 DEBUG dloc_data_prep - error slice 273 data size: 0 175
+2021-07-21 03:12:39,648 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:39,840 DEBUG dloc_data_prep - error slice 274 data size: 0 175
+2021-07-21 03:12:40,001 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:40,211 DEBUG dloc_data_prep - error slice 275 data size: 0 175
+2021-07-21 03:12:40,436 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:40,642 DEBUG dloc_data_prep - error slice 276 data size: 0 175
+2021-07-21 03:12:40,847 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:41,050 DEBUG dloc_data_prep - error slice 277 data size: 0 175
+2021-07-21 03:12:41,274 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:41,487 DEBUG dloc_data_prep - error slice 278 data size: 0 175
+2021-07-21 03:12:41,714 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:41,926 DEBUG dloc_data_prep - error slice 279 data size: 0 175
+2021-07-21 03:12:42,126 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:42,349 DEBUG dloc_data_prep - error slice 280 data size: 0 175
+2021-07-21 03:12:42,598 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:42,834 DEBUG dloc_data_prep - error slice 281 data size: 0 175
+2021-07-21 03:12:43,052 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:43,310 DEBUG dloc_data_prep - error slice 282 data size: 0 175
+2021-07-21 03:12:43,589 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:43,835 DEBUG dloc_data_prep - error slice 283 data size: 0 175
+2021-07-21 03:12:44,079 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:44,292 DEBUG dloc_data_prep - error slice 284 data size: 0 175
+2021-07-21 03:12:44,520 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:44,744 DEBUG dloc_data_prep - error slice 285 data size: 0 175
+2021-07-21 03:12:44,994 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:45,200 DEBUG dloc_data_prep - error slice 286 data size: 0 175
+2021-07-21 03:12:45,397 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:45,584 DEBUG dloc_data_prep - error slice 287 data size: 0 175
+2021-07-21 03:12:45,811 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:46,005 DEBUG dloc_data_prep - error slice 288 data size: 0 175
+2021-07-21 03:12:46,241 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:46,458 DEBUG dloc_data_prep - error slice 289 data size: 0 175
+2021-07-21 03:12:46,703 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:46,893 DEBUG dloc_data_prep - error slice 290 data size: 0 175
+2021-07-21 03:12:47,120 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:47,349 DEBUG dloc_data_prep - error slice 291 data size: 0 175
+2021-07-21 03:12:47,558 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:47,826 DEBUG dloc_data_prep - error slice 292 data size: 0 175
+2021-07-21 03:12:48,044 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:48,242 DEBUG dloc_data_prep - error slice 293 data size: 0 175
+2021-07-21 03:12:48,442 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:48,652 DEBUG dloc_data_prep - error slice 294 data size: 0 175
+2021-07-21 03:12:48,874 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:49,060 DEBUG dloc_data_prep - error slice 295 data size: 0 175
+2021-07-21 03:12:49,306 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:49,503 DEBUG dloc_data_prep - error slice 296 data size: 0 175
+2021-07-21 03:12:49,746 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:49,977 DEBUG dloc_data_prep - error slice 297 data size: 0 175
+2021-07-21 03:12:50,170 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:50,402 DEBUG dloc_data_prep - error slice 298 data size: 0 175
+2021-07-21 03:12:50,667 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:50,845 DEBUG dloc_data_prep - error slice 299 data size: 0 175
+2021-07-21 03:12:51,187 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:51,407 DEBUG dloc_data_prep - error slice 300 data size: 0 175
+2021-07-21 03:12:51,654 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:51,861 DEBUG dloc_data_prep - error slice 301 data size: 0 175
+2021-07-21 03:12:52,040 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:52,247 DEBUG dloc_data_prep - error slice 302 data size: 0 175
+2021-07-21 03:12:52,474 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:52,671 DEBUG dloc_data_prep - error slice 303 data size: 0 175
+2021-07-21 03:12:52,859 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:53,127 DEBUG dloc_data_prep - error slice 304 data size: 0 175
+2021-07-21 03:12:53,326 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:53,546 DEBUG dloc_data_prep - error slice 305 data size: 0 175
+2021-07-21 03:12:53,822 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:54,030 DEBUG dloc_data_prep - error slice 306 data size: 0 175
+2021-07-21 03:12:54,282 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:54,550 DEBUG dloc_data_prep - error slice 307 data size: 0 175
+2021-07-21 03:12:54,729 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:54,988 DEBUG dloc_data_prep - error slice 308 data size: 0 175
+2021-07-21 03:12:55,218 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:55,451 DEBUG dloc_data_prep - error slice 309 data size: 0 175
+2021-07-21 03:12:55,707 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:55,951 DEBUG dloc_data_prep - error slice 310 data size: 0 175
+2021-07-21 03:12:56,169 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:56,387 DEBUG dloc_data_prep - error slice 311 data size: 0 175
+2021-07-21 03:12:56,586 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:56,790 DEBUG dloc_data_prep - error slice 312 data size: 0 175
+2021-07-21 03:12:57,008 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:57,272 DEBUG dloc_data_prep - error slice 313 data size: 0 175
+2021-07-21 03:12:57,522 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:57,722 DEBUG dloc_data_prep - error slice 314 data size: 0 175
+2021-07-21 03:12:57,987 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:58,210 DEBUG dloc_data_prep - error slice 315 data size: 0 175
+2021-07-21 03:12:58,399 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:58,602 DEBUG dloc_data_prep - error slice 316 data size: 0 175
+2021-07-21 03:12:58,828 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:59,039 DEBUG dloc_data_prep - error slice 317 data size: 0 175
+2021-07-21 03:12:59,279 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:59,520 DEBUG dloc_data_prep - error slice 318 data size: 0 175
+2021-07-21 03:12:59,769 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:12:59,981 DEBUG dloc_data_prep - error slice 319 data size: 0 175
+2021-07-21 03:13:00,179 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:00,452 DEBUG dloc_data_prep - error slice 320 data size: 0 175
+2021-07-21 03:13:00,695 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:00,927 DEBUG dloc_data_prep - error slice 321 data size: 0 175
+2021-07-21 03:13:01,184 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:01,445 DEBUG dloc_data_prep - error slice 322 data size: 0 175
+2021-07-21 03:13:01,660 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:01,887 DEBUG dloc_data_prep - error slice 323 data size: 0 175
+2021-07-21 03:13:02,151 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:02,387 DEBUG dloc_data_prep - error slice 324 data size: 0 175
+2021-07-21 03:13:02,638 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:02,861 DEBUG dloc_data_prep - error slice 325 data size: 0 175
+2021-07-21 03:13:03,088 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:03,390 DEBUG dloc_data_prep - error slice 326 data size: 0 175
+2021-07-21 03:13:03,650 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:03,982 DEBUG dloc_data_prep - error slice 327 data size: 0 175
+2021-07-21 03:13:04,238 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:04,461 DEBUG dloc_data_prep - error slice 328 data size: 0 175
+2021-07-21 03:13:04,655 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:04,904 DEBUG dloc_data_prep - error slice 329 data size: 0 175
+2021-07-21 03:13:05,103 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:05,310 DEBUG dloc_data_prep - error slice 330 data size: 0 175
+2021-07-21 03:13:05,604 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:05,849 DEBUG dloc_data_prep - error slice 331 data size: 0 175
+2021-07-21 03:13:06,152 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:06,451 DEBUG dloc_data_prep - error slice 332 data size: 0 175
+2021-07-21 03:13:06,718 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:06,893 DEBUG dloc_data_prep - error slice 333 data size: 0 175
+2021-07-21 03:13:07,099 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:07,343 DEBUG dloc_data_prep - error slice 334 data size: 0 175
+2021-07-21 03:13:07,596 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:07,831 DEBUG dloc_data_prep - error slice 335 data size: 0 175
+2021-07-21 03:13:08,108 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:08,329 DEBUG dloc_data_prep - error slice 336 data size: 0 175
+2021-07-21 03:13:08,554 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:08,772 DEBUG dloc_data_prep - error slice 337 data size: 0 175
+2021-07-21 03:13:09,031 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:09,296 DEBUG dloc_data_prep - error slice 338 data size: 0 175
+2021-07-21 03:13:09,565 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:09,828 DEBUG dloc_data_prep - error slice 339 data size: 0 175
+2021-07-21 03:13:10,083 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:10,308 DEBUG dloc_data_prep - error slice 340 data size: 0 175
+2021-07-21 03:13:10,578 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:10,833 DEBUG dloc_data_prep - error slice 341 data size: 0 175
+2021-07-21 03:13:11,073 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:11,330 DEBUG dloc_data_prep - error slice 342 data size: 0 175
+2021-07-21 03:13:11,534 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:11,760 DEBUG dloc_data_prep - error slice 343 data size: 0 175
+2021-07-21 03:13:12,000 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:12,226 DEBUG dloc_data_prep - error slice 344 data size: 0 175
+2021-07-21 03:13:12,455 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:12,687 DEBUG dloc_data_prep - error slice 345 data size: 0 175
+2021-07-21 03:13:12,964 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:13,244 DEBUG dloc_data_prep - error slice 346 data size: 0 175
+2021-07-21 03:13:13,457 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:13,709 DEBUG dloc_data_prep - error slice 347 data size: 0 175
+2021-07-21 03:13:13,956 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:14,162 DEBUG dloc_data_prep - error slice 348 data size: 0 175
+2021-07-21 03:13:14,396 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:14,674 DEBUG dloc_data_prep - error slice 349 data size: 0 175
+2021-07-21 03:13:14,891 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:15,147 DEBUG dloc_data_prep - error slice 350 data size: 0 175
+2021-07-21 03:13:15,375 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:15,625 DEBUG dloc_data_prep - error slice 351 data size: 0 175
+2021-07-21 03:13:15,926 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:16,151 DEBUG dloc_data_prep - error slice 352 data size: 0 175
+2021-07-21 03:13:16,433 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:16,710 DEBUG dloc_data_prep - error slice 353 data size: 0 175
+2021-07-21 03:13:16,969 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:17,205 DEBUG dloc_data_prep - error slice 354 data size: 0 175
+2021-07-21 03:13:17,456 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:17,744 DEBUG dloc_data_prep - error slice 355 data size: 0 175
+2021-07-21 03:13:17,987 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:18,230 DEBUG dloc_data_prep - error slice 356 data size: 0 175
+2021-07-21 03:13:18,487 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:18,723 DEBUG dloc_data_prep - error slice 357 data size: 0 175
+2021-07-21 03:13:18,970 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:19,176 DEBUG dloc_data_prep - error slice 358 data size: 0 175
+2021-07-21 03:13:19,426 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:19,668 DEBUG dloc_data_prep - error slice 359 data size: 0 175
+2021-07-21 03:13:19,952 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:20,218 DEBUG dloc_data_prep - error slice 360 data size: 0 175
+2021-07-21 03:13:20,446 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:20,681 DEBUG dloc_data_prep - error slice 361 data size: 0 175
+2021-07-21 03:13:20,911 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:21,165 DEBUG dloc_data_prep - error slice 362 data size: 0 175
+2021-07-21 03:13:21,451 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:21,684 DEBUG dloc_data_prep - error slice 363 data size: 0 175
+2021-07-21 03:13:21,942 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:22,137 DEBUG dloc_data_prep - error slice 364 data size: 0 175
+2021-07-21 03:13:22,404 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:22,623 DEBUG dloc_data_prep - error slice 365 data size: 0 175
+2021-07-21 03:13:22,868 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:23,137 DEBUG dloc_data_prep - error slice 366 data size: 0 175
+2021-07-21 03:13:23,400 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:23,640 DEBUG dloc_data_prep - error slice 367 data size: 0 175
+2021-07-21 03:13:23,902 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:24,121 DEBUG dloc_data_prep - error slice 368 data size: 0 175
+2021-07-21 03:13:24,352 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:24,599 DEBUG dloc_data_prep - error slice 369 data size: 0 175
+2021-07-21 03:13:24,833 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:25,088 DEBUG dloc_data_prep - error slice 370 data size: 0 175
+2021-07-21 03:13:25,341 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:25,563 DEBUG dloc_data_prep - error slice 371 data size: 0 175
+2021-07-21 03:13:25,836 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:26,045 DEBUG dloc_data_prep - error slice 372 data size: 0 175
+2021-07-21 03:13:26,270 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:26,535 DEBUG dloc_data_prep - error slice 373 data size: 0 175
+2021-07-21 03:13:26,788 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:27,013 DEBUG dloc_data_prep - error slice 374 data size: 0 175
+2021-07-21 03:13:27,262 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:27,509 DEBUG dloc_data_prep - error slice 375 data size: 0 175
+2021-07-21 03:13:27,981 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:28,232 DEBUG dloc_data_prep - error slice 376 data size: 0 175
+2021-07-21 03:13:28,446 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:28,695 DEBUG dloc_data_prep - error slice 377 data size: 0 175
+2021-07-21 03:13:28,980 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:29,208 DEBUG dloc_data_prep - error slice 378 data size: 0 175
+2021-07-21 03:13:29,425 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:29,720 DEBUG dloc_data_prep - error slice 379 data size: 0 175
+2021-07-21 03:13:29,998 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:30,262 DEBUG dloc_data_prep - error slice 380 data size: 0 175
+2021-07-21 03:13:30,450 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:30,664 DEBUG dloc_data_prep - error slice 381 data size: 0 175
+2021-07-21 03:13:30,892 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:31,151 DEBUG dloc_data_prep - error slice 382 data size: 0 175
+2021-07-21 03:13:31,369 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:31,635 DEBUG dloc_data_prep - error slice 383 data size: 0 175
+2021-07-21 03:13:31,911 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:32,177 DEBUG dloc_data_prep - error slice 384 data size: 0 175
+2021-07-21 03:13:32,435 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:32,659 DEBUG dloc_data_prep - error slice 385 data size: 0 175
+2021-07-21 03:13:32,918 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:33,149 DEBUG dloc_data_prep - error slice 386 data size: 0 175
+2021-07-21 03:13:33,415 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:33,671 DEBUG dloc_data_prep - error slice 387 data size: 0 175
+2021-07-21 03:13:33,948 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:34,240 DEBUG dloc_data_prep - error slice 388 data size: 0 175
+2021-07-21 03:13:34,455 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:34,680 DEBUG dloc_data_prep - error slice 389 data size: 0 175
+2021-07-21 03:13:34,973 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:35,305 DEBUG dloc_data_prep - error slice 390 data size: 0 175
+2021-07-21 03:13:35,538 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:35,769 DEBUG dloc_data_prep - error slice 391 data size: 0 175
+2021-07-21 03:13:36,058 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:36,265 DEBUG dloc_data_prep - error slice 392 data size: 0 175
+2021-07-21 03:13:36,501 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:36,759 DEBUG dloc_data_prep - error slice 393 data size: 0 175
+2021-07-21 03:13:37,030 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:37,301 DEBUG dloc_data_prep - error slice 394 data size: 0 175
+2021-07-21 03:13:37,553 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:37,824 DEBUG dloc_data_prep - error slice 395 data size: 0 175
+2021-07-21 03:13:38,105 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:38,365 DEBUG dloc_data_prep - error slice 396 data size: 0 175
+2021-07-21 03:13:38,603 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:38,880 DEBUG dloc_data_prep - error slice 397 data size: 0 175
+2021-07-21 03:13:39,095 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:39,301 DEBUG dloc_data_prep - error slice 398 data size: 0 175
+2021-07-21 03:13:39,530 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:39,778 DEBUG dloc_data_prep - error slice 399 data size: 0 175
+2021-07-21 03:13:40,087 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:40,377 DEBUG dloc_data_prep - error slice 400 data size: 0 175
+2021-07-21 03:13:40,628 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:40,883 DEBUG dloc_data_prep - error slice 401 data size: 0 175
+2021-07-21 03:13:41,126 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:41,441 DEBUG dloc_data_prep - error slice 402 data size: 0 175
+2021-07-21 03:13:41,727 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:41,968 DEBUG dloc_data_prep - error slice 403 data size: 0 175
+2021-07-21 03:13:42,202 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:42,438 DEBUG dloc_data_prep - error slice 404 data size: 0 175
+2021-07-21 03:13:42,659 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:42,890 DEBUG dloc_data_prep - error slice 405 data size: 0 175
+2021-07-21 03:13:43,104 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:43,441 DEBUG dloc_data_prep - error slice 406 data size: 0 175
+2021-07-21 03:13:43,724 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:43,954 DEBUG dloc_data_prep - error slice 407 data size: 0 175
+2021-07-21 03:13:44,198 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:44,470 DEBUG dloc_data_prep - error slice 408 data size: 0 175
+2021-07-21 03:13:44,681 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:44,929 DEBUG dloc_data_prep - error slice 409 data size: 0 175
+2021-07-21 03:13:45,162 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:45,407 DEBUG dloc_data_prep - error slice 410 data size: 0 175
+2021-07-21 03:13:45,608 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:45,856 DEBUG dloc_data_prep - error slice 411 data size: 0 175
+2021-07-21 03:13:46,092 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:46,337 DEBUG dloc_data_prep - error slice 412 data size: 0 175
+2021-07-21 03:13:46,547 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:46,806 DEBUG dloc_data_prep - error slice 413 data size: 0 175
+2021-07-21 03:13:47,018 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:47,254 DEBUG dloc_data_prep - error slice 414 data size: 0 175
+2021-07-21 03:13:47,494 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:47,701 DEBUG dloc_data_prep - error slice 415 data size: 0 175
+2021-07-21 03:13:47,915 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:48,160 DEBUG dloc_data_prep - error slice 416 data size: 0 175
+2021-07-21 03:13:48,406 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:48,642 DEBUG dloc_data_prep - error slice 417 data size: 0 175
+2021-07-21 03:13:48,884 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:49,164 DEBUG dloc_data_prep - error slice 418 data size: 0 175
+2021-07-21 03:13:49,407 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:49,740 DEBUG dloc_data_prep - error slice 419 data size: 0 175
+2021-07-21 03:13:50,231 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:50,752 DEBUG dloc_data_prep - error slice 420 data size: 0 175
+2021-07-21 03:13:51,015 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:51,243 DEBUG dloc_data_prep - error slice 421 data size: 0 175
+2021-07-21 03:13:51,483 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:51,708 DEBUG dloc_data_prep - error slice 422 data size: 0 175
+2021-07-21 03:13:51,951 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:52,153 DEBUG dloc_data_prep - error slice 423 data size: 0 175
+2021-07-21 03:13:52,349 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:52,604 DEBUG dloc_data_prep - error slice 424 data size: 0 175
+2021-07-21 03:13:52,828 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:53,094 DEBUG dloc_data_prep - error slice 425 data size: 0 175
+2021-07-21 03:13:53,287 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:53,537 DEBUG dloc_data_prep - error slice 426 data size: 0 175
+2021-07-21 03:13:53,750 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:53,971 DEBUG dloc_data_prep - error slice 427 data size: 0 175
+2021-07-21 03:13:54,213 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:54,437 DEBUG dloc_data_prep - error slice 428 data size: 0 175
+2021-07-21 03:13:54,638 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:54,894 DEBUG dloc_data_prep - error slice 429 data size: 0 175
+2021-07-21 03:13:55,128 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:55,378 DEBUG dloc_data_prep - error slice 430 data size: 0 175
+2021-07-21 03:13:55,586 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:55,812 DEBUG dloc_data_prep - error slice 431 data size: 0 175
+2021-07-21 03:13:56,066 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:56,302 DEBUG dloc_data_prep - error slice 432 data size: 0 175
+2021-07-21 03:13:56,491 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:56,712 DEBUG dloc_data_prep - error slice 433 data size: 0 175
+2021-07-21 03:13:56,953 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:57,183 DEBUG dloc_data_prep - error slice 434 data size: 0 175
+2021-07-21 03:13:57,461 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:57,649 DEBUG dloc_data_prep - error slice 435 data size: 0 175
+2021-07-21 03:13:57,867 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:58,087 DEBUG dloc_data_prep - error slice 436 data size: 0 175
+2021-07-21 03:13:58,357 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:58,603 DEBUG dloc_data_prep - error slice 437 data size: 0 175
+2021-07-21 03:13:58,851 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:59,081 DEBUG dloc_data_prep - error slice 438 data size: 0 175
+2021-07-21 03:13:59,320 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:59,532 DEBUG dloc_data_prep - error slice 439 data size: 0 175
+2021-07-21 03:13:59,776 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:13:59,975 DEBUG dloc_data_prep - error slice 440 data size: 0 175
+2021-07-21 03:14:00,250 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:00,504 DEBUG dloc_data_prep - error slice 441 data size: 0 175
+2021-07-21 03:14:00,732 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:00,946 DEBUG dloc_data_prep - error slice 442 data size: 0 175
+2021-07-21 03:14:01,186 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:01,423 DEBUG dloc_data_prep - error slice 443 data size: 0 175
+2021-07-21 03:14:01,646 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:01,893 DEBUG dloc_data_prep - error slice 444 data size: 0 175
+2021-07-21 03:14:02,128 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:02,321 DEBUG dloc_data_prep - error slice 445 data size: 0 175
+2021-07-21 03:14:02,590 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:02,912 DEBUG dloc_data_prep - error slice 446 data size: 0 175
+2021-07-21 03:14:03,187 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:03,486 DEBUG dloc_data_prep - error slice 447 data size: 0 175
+2021-07-21 03:14:03,695 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:03,906 DEBUG dloc_data_prep - error slice 448 data size: 0 175
+2021-07-21 03:14:04,133 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:04,366 DEBUG dloc_data_prep - error slice 449 data size: 0 175
+2021-07-21 03:14:04,624 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:04,844 DEBUG dloc_data_prep - error slice 450 data size: 0 175
+2021-07-21 03:14:05,058 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:05,339 DEBUG dloc_data_prep - error slice 451 data size: 0 175
+2021-07-21 03:14:05,559 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:05,844 DEBUG dloc_data_prep - error slice 452 data size: 0 175
+2021-07-21 03:14:06,056 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:06,238 DEBUG dloc_data_prep - error slice 453 data size: 0 175
+2021-07-21 03:14:06,455 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:06,704 DEBUG dloc_data_prep - error slice 454 data size: 0 175
+2021-07-21 03:14:06,947 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:07,224 DEBUG dloc_data_prep - error slice 455 data size: 0 175
+2021-07-21 03:14:07,469 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:07,694 DEBUG dloc_data_prep - error slice 456 data size: 0 175
+2021-07-21 03:14:07,936 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:08,195 DEBUG dloc_data_prep - error slice 457 data size: 0 175
+2021-07-21 03:14:08,420 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:08,641 DEBUG dloc_data_prep - error slice 458 data size: 0 175
+2021-07-21 03:14:08,900 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:09,153 DEBUG dloc_data_prep - error slice 459 data size: 0 175
+2021-07-21 03:14:09,436 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:09,708 DEBUG dloc_data_prep - error slice 460 data size: 0 175
+2021-07-21 03:14:10,048 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:10,384 DEBUG dloc_data_prep - error slice 461 data size: 0 175
+2021-07-21 03:14:10,584 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:10,785 DEBUG dloc_data_prep - error slice 462 data size: 0 175
+2021-07-21 03:14:11,011 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:11,231 DEBUG dloc_data_prep - error slice 463 data size: 0 175
+2021-07-21 03:14:11,464 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:11,719 DEBUG dloc_data_prep - error slice 464 data size: 0 175
+2021-07-21 03:14:11,954 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:12,179 DEBUG dloc_data_prep - error slice 465 data size: 0 175
+2021-07-21 03:14:12,370 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:12,629 DEBUG dloc_data_prep - error slice 466 data size: 0 175
+2021-07-21 03:14:12,906 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:13,142 DEBUG dloc_data_prep - error slice 467 data size: 0 175
+2021-07-21 03:14:13,407 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:13,645 DEBUG dloc_data_prep - error slice 468 data size: 0 175
+2021-07-21 03:14:13,852 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:14,090 DEBUG dloc_data_prep - error slice 469 data size: 0 175
+2021-07-21 03:14:14,306 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:14,529 DEBUG dloc_data_prep - error slice 470 data size: 0 175
+2021-07-21 03:14:14,753 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:14,921 DEBUG dloc_data_prep - error slice 471 data size: 0 175
+2021-07-21 03:14:15,129 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:15,530 DEBUG dloc_data_prep - error slice 472 data size: 0 175
+2021-07-21 03:14:15,826 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:16,289 DEBUG dloc_data_prep - error slice 473 data size: 0 175
+2021-07-21 03:14:16,561 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:16,827 DEBUG dloc_data_prep - error slice 474 data size: 0 175
+2021-07-21 03:14:17,055 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:17,238 DEBUG dloc_data_prep - error slice 475 data size: 0 175
+2021-07-21 03:14:17,474 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:17,693 DEBUG dloc_data_prep - error slice 476 data size: 0 175
+2021-07-21 03:14:17,954 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:18,216 DEBUG dloc_data_prep - error slice 477 data size: 0 175
+2021-07-21 03:14:18,474 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:18,668 DEBUG dloc_data_prep - error slice 478 data size: 0 175
+2021-07-21 03:14:18,903 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:19,140 DEBUG dloc_data_prep - error slice 479 data size: 0 175
+2021-07-21 03:14:19,360 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:19,581 DEBUG dloc_data_prep - error slice 480 data size: 0 175
+2021-07-21 03:14:19,796 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:20,031 DEBUG dloc_data_prep - error slice 481 data size: 0 175
+2021-07-21 03:14:20,265 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:20,460 DEBUG dloc_data_prep - error slice 482 data size: 0 175
+2021-07-21 03:14:20,688 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:20,861 DEBUG dloc_data_prep - error slice 483 data size: 0 175
+2021-07-21 03:14:21,101 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:21,312 DEBUG dloc_data_prep - error slice 484 data size: 0 175
+2021-07-21 03:14:21,572 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:21,795 DEBUG dloc_data_prep - error slice 485 data size: 0 175
+2021-07-21 03:14:22,021 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:22,234 DEBUG dloc_data_prep - error slice 486 data size: 0 175
+2021-07-21 03:14:22,485 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:22,725 DEBUG dloc_data_prep - error slice 487 data size: 0 175
+2021-07-21 03:14:22,985 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:23,198 DEBUG dloc_data_prep - error slice 488 data size: 0 175
+2021-07-21 03:14:23,395 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:23,612 DEBUG dloc_data_prep - error slice 489 data size: 0 175
+2021-07-21 03:14:23,871 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:24,151 DEBUG dloc_data_prep - error slice 490 data size: 0 175
+2021-07-21 03:14:24,378 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:24,592 DEBUG dloc_data_prep - error slice 491 data size: 0 175
+2021-07-21 03:14:24,817 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:25,018 DEBUG dloc_data_prep - error slice 492 data size: 0 175
+2021-07-21 03:14:25,269 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:25,497 DEBUG dloc_data_prep - error slice 493 data size: 0 175
+2021-07-21 03:14:25,734 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:26,013 DEBUG dloc_data_prep - error slice 494 data size: 0 175
+2021-07-21 03:14:26,240 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:26,447 DEBUG dloc_data_prep - error slice 495 data size: 0 175
+2021-07-21 03:14:26,698 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:26,892 DEBUG dloc_data_prep - error slice 496 data size: 0 175
+2021-07-21 03:14:27,116 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:27,372 DEBUG dloc_data_prep - error slice 497 data size: 0 175
+2021-07-21 03:14:27,592 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:27,814 DEBUG dloc_data_prep - error slice 498 data size: 0 175
+2021-07-21 03:14:28,044 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:28,258 DEBUG dloc_data_prep - error slice 499 data size: 0 175
+2021-07-21 03:14:28,504 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:28,841 DEBUG dloc_data_prep - error slice 500 data size: 0 175
+2021-07-21 03:14:29,111 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:29,332 DEBUG dloc_data_prep - error slice 501 data size: 0 175
+2021-07-21 03:14:29,592 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:29,798 DEBUG dloc_data_prep - error slice 502 data size: 0 175
+2021-07-21 03:14:30,051 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:30,310 DEBUG dloc_data_prep - error slice 503 data size: 0 175
+2021-07-21 03:14:30,530 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:30,793 DEBUG dloc_data_prep - error slice 504 data size: 0 175
+2021-07-21 03:14:31,032 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:31,243 DEBUG dloc_data_prep - error slice 505 data size: 0 175
+2021-07-21 03:14:31,496 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:31,696 DEBUG dloc_data_prep - error slice 506 data size: 0 175
+2021-07-21 03:14:31,927 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:32,178 DEBUG dloc_data_prep - error slice 507 data size: 0 175
+2021-07-21 03:14:32,435 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:32,690 DEBUG dloc_data_prep - error slice 508 data size: 0 175
+2021-07-21 03:14:32,906 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:33,145 DEBUG dloc_data_prep - error slice 509 data size: 0 175
+2021-07-21 03:14:33,330 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:33,598 DEBUG dloc_data_prep - error slice 510 data size: 0 175
+2021-07-21 03:14:33,941 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:34,185 DEBUG dloc_data_prep - error slice 511 data size: 0 175
+2021-07-21 03:14:34,490 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:34,709 DEBUG dloc_data_prep - error slice 512 data size: 0 175
+2021-07-21 03:14:34,907 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:35,163 DEBUG dloc_data_prep - error slice 513 data size: 0 175
+2021-07-21 03:14:35,411 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:35,635 DEBUG dloc_data_prep - error slice 514 data size: 0 175
+2021-07-21 03:14:35,904 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:36,115 DEBUG dloc_data_prep - error slice 515 data size: 0 175
+2021-07-21 03:14:36,319 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:36,502 DEBUG dloc_data_prep - error slice 516 data size: 0 175
+2021-07-21 03:14:36,712 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:36,948 DEBUG dloc_data_prep - error slice 517 data size: 0 175
+2021-07-21 03:14:37,177 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:37,412 DEBUG dloc_data_prep - error slice 518 data size: 0 175
+2021-07-21 03:14:37,664 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:37,855 DEBUG dloc_data_prep - error slice 519 data size: 0 175
+2021-07-21 03:14:38,083 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:38,335 DEBUG dloc_data_prep - error slice 520 data size: 0 175
+2021-07-21 03:14:38,564 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:38,769 DEBUG dloc_data_prep - error slice 521 data size: 0 175
+2021-07-21 03:14:39,055 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:39,270 DEBUG dloc_data_prep - error slice 522 data size: 0 175
+2021-07-21 03:14:39,509 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:39,767 DEBUG dloc_data_prep - error slice 523 data size: 0 175
+2021-07-21 03:14:40,022 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:40,284 DEBUG dloc_data_prep - error slice 524 data size: 0 175
+2021-07-21 03:14:40,530 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:40,765 DEBUG dloc_data_prep - error slice 525 data size: 0 175
+2021-07-21 03:14:41,024 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:41,248 DEBUG dloc_data_prep - error slice 526 data size: 0 175
+2021-07-21 03:14:41,491 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:41,748 DEBUG dloc_data_prep - error slice 527 data size: 0 175
+2021-07-21 03:14:42,001 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:42,181 DEBUG dloc_data_prep - error slice 528 data size: 0 175
+2021-07-21 03:14:42,398 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:42,615 DEBUG dloc_data_prep - error slice 529 data size: 0 175
+2021-07-21 03:14:42,924 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:43,146 DEBUG dloc_data_prep - error slice 530 data size: 0 175
+2021-07-21 03:14:43,328 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:43,592 DEBUG dloc_data_prep - error slice 531 data size: 0 175
+2021-07-21 03:14:43,847 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:44,106 DEBUG dloc_data_prep - error slice 532 data size: 0 175
+2021-07-21 03:14:44,385 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:44,689 DEBUG dloc_data_prep - error slice 533 data size: 0 175
+2021-07-21 03:14:45,033 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:45,283 DEBUG dloc_data_prep - error slice 534 data size: 0 175
+2021-07-21 03:14:45,493 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:45,744 DEBUG dloc_data_prep - error slice 535 data size: 0 175
+2021-07-21 03:14:45,972 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:46,213 DEBUG dloc_data_prep - error slice 536 data size: 0 175
+2021-07-21 03:14:46,451 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:46,711 DEBUG dloc_data_prep - error slice 537 data size: 0 175
+2021-07-21 03:14:46,953 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:47,167 DEBUG dloc_data_prep - error slice 538 data size: 0 175
+2021-07-21 03:14:47,394 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:47,596 DEBUG dloc_data_prep - error slice 539 data size: 0 175
+2021-07-21 03:14:47,842 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:48,094 DEBUG dloc_data_prep - error slice 540 data size: 0 175
+2021-07-21 03:14:48,353 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:48,566 DEBUG dloc_data_prep - error slice 541 data size: 0 175
+2021-07-21 03:14:48,801 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:49,018 DEBUG dloc_data_prep - error slice 542 data size: 0 175
+2021-07-21 03:14:49,226 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:49,439 DEBUG dloc_data_prep - error slice 543 data size: 0 175
+2021-07-21 03:14:49,678 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:49,932 DEBUG dloc_data_prep - error slice 544 data size: 0 175
+2021-07-21 03:14:50,226 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:50,476 DEBUG dloc_data_prep - error slice 545 data size: 0 175
+2021-07-21 03:14:50,737 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:51,000 DEBUG dloc_data_prep - error slice 546 data size: 0 175
+2021-07-21 03:14:51,223 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:51,439 DEBUG dloc_data_prep - error slice 547 data size: 0 175
+2021-07-21 03:14:51,680 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:51,864 DEBUG dloc_data_prep - error slice 548 data size: 0 175
+2021-07-21 03:14:52,115 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:52,396 DEBUG dloc_data_prep - error slice 549 data size: 0 175
+2021-07-21 03:14:52,617 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:52,815 DEBUG dloc_data_prep - error slice 550 data size: 0 175
+2021-07-21 03:14:53,054 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:53,297 DEBUG dloc_data_prep - error slice 551 data size: 0 175
+2021-07-21 03:14:53,582 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:53,773 DEBUG dloc_data_prep - error slice 552 data size: 0 175
+2021-07-21 03:14:54,006 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:54,235 DEBUG dloc_data_prep - error slice 553 data size: 0 175
+2021-07-21 03:14:54,481 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:54,758 DEBUG dloc_data_prep - error slice 554 data size: 0 175
+2021-07-21 03:14:55,026 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:55,373 DEBUG dloc_data_prep - error slice 555 data size: 0 175
+2021-07-21 03:14:55,611 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:55,871 DEBUG dloc_data_prep - error slice 556 data size: 0 175
+2021-07-21 03:14:56,128 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:56,367 DEBUG dloc_data_prep - error slice 557 data size: 0 175
+2021-07-21 03:14:56,636 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:56,892 DEBUG dloc_data_prep - error slice 558 data size: 0 175
+2021-07-21 03:14:57,161 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:57,419 DEBUG dloc_data_prep - error slice 559 data size: 0 175
+2021-07-21 03:14:57,668 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:57,939 DEBUG dloc_data_prep - error slice 560 data size: 0 175
+2021-07-21 03:14:58,211 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:58,442 DEBUG dloc_data_prep - error slice 561 data size: 0 175
+2021-07-21 03:14:58,639 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:58,904 DEBUG dloc_data_prep - error slice 562 data size: 0 175
+2021-07-21 03:14:59,154 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:59,402 DEBUG dloc_data_prep - error slice 563 data size: 0 175
+2021-07-21 03:14:59,665 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:14:59,916 DEBUG dloc_data_prep - error slice 564 data size: 0 175
+2021-07-21 03:15:00,234 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:00,527 DEBUG dloc_data_prep - error slice 565 data size: 0 175
+2021-07-21 03:15:00,768 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:01,039 DEBUG dloc_data_prep - error slice 566 data size: 0 175
+2021-07-21 03:15:01,308 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:01,578 DEBUG dloc_data_prep - error slice 567 data size: 0 175
+2021-07-21 03:15:01,903 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:02,154 DEBUG dloc_data_prep - error slice 568 data size: 0 175
+2021-07-21 03:15:02,366 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:02,758 DEBUG dloc_data_prep - error slice 569 data size: 0 175
+2021-07-21 03:15:03,046 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:03,302 DEBUG dloc_data_prep - error slice 570 data size: 0 175
+2021-07-21 03:15:03,654 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:03,898 DEBUG dloc_data_prep - error slice 571 data size: 0 175
+2021-07-21 03:15:04,145 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:04,350 DEBUG dloc_data_prep - error slice 572 data size: 0 175
+2021-07-21 03:15:04,566 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:04,782 DEBUG dloc_data_prep - error slice 573 data size: 0 175
+2021-07-21 03:15:05,078 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:05,337 DEBUG dloc_data_prep - error slice 574 data size: 0 175
+2021-07-21 03:15:05,578 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:05,855 DEBUG dloc_data_prep - error slice 575 data size: 0 175
+2021-07-21 03:15:06,075 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:06,323 DEBUG dloc_data_prep - error slice 576 data size: 0 175
+2021-07-21 03:15:06,569 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:06,809 DEBUG dloc_data_prep - error slice 577 data size: 0 175
+2021-07-21 03:15:07,076 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:07,352 DEBUG dloc_data_prep - error slice 578 data size: 0 175
+2021-07-21 03:15:07,630 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:07,878 DEBUG dloc_data_prep - error slice 579 data size: 0 175
+2021-07-21 03:15:08,161 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:08,474 DEBUG dloc_data_prep - error slice 580 data size: 0 175
+2021-07-21 03:15:08,737 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:09,138 DEBUG dloc_data_prep - error slice 581 data size: 0 175
+2021-07-21 03:15:09,388 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:09,636 DEBUG dloc_data_prep - error slice 582 data size: 0 175
+2021-07-21 03:15:09,913 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:10,186 DEBUG dloc_data_prep - error slice 583 data size: 0 175
+2021-07-21 03:15:10,473 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:10,730 DEBUG dloc_data_prep - error slice 584 data size: 0 175
+2021-07-21 03:15:11,000 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:11,286 DEBUG dloc_data_prep - error slice 585 data size: 0 175
+2021-07-21 03:15:11,586 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:11,849 DEBUG dloc_data_prep - error slice 586 data size: 0 175
+2021-07-21 03:15:12,104 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:12,333 DEBUG dloc_data_prep - error slice 587 data size: 0 175
+2021-07-21 03:15:12,600 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:12,843 DEBUG dloc_data_prep - error slice 588 data size: 0 175
+2021-07-21 03:15:13,142 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:13,467 DEBUG dloc_data_prep - error slice 589 data size: 0 175
+2021-07-21 03:15:13,766 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:13,947 DEBUG dloc_data_prep - error slice 590 data size: 0 175
+2021-07-21 03:15:14,206 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:14,598 DEBUG dloc_data_prep - error slice 591 data size: 0 175
+2021-07-21 03:15:14,936 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:15,224 DEBUG dloc_data_prep - error slice 592 data size: 0 175
+2021-07-21 03:15:15,465 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:15,697 DEBUG dloc_data_prep - error slice 593 data size: 0 175
+2021-07-21 03:15:16,115 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:16,380 DEBUG dloc_data_prep - error slice 594 data size: 0 175
+2021-07-21 03:15:16,619 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:16,877 DEBUG dloc_data_prep - error slice 595 data size: 0 175
+2021-07-21 03:15:17,101 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:17,337 DEBUG dloc_data_prep - error slice 596 data size: 0 175
+2021-07-21 03:15:17,614 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:17,830 DEBUG dloc_data_prep - error slice 597 data size: 0 175
+2021-07-21 03:15:18,066 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:18,332 DEBUG dloc_data_prep - error slice 598 data size: 0 175
+2021-07-21 03:15:18,575 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:18,771 DEBUG dloc_data_prep - error slice 599 data size: 0 175
+2021-07-21 03:15:19,029 ERROR dloc_data_prep - signal:downsample:Nonempty->Expected X to be nonempty.
+2021-07-21 03:15:19,289 DEBUG dloc_data_prep - error slice 600 data size: 0 175
+2021-07-21 03:16:49,730 INFO mylstm - accuracy obtained from training = 0.95556
+2021-07-21 03:16:50,051 INFO m_reducer - Network is set...saving
+2021-07-21 03:16:50,371 INFO mt_reducer - Obtaining radius testdata....
+2021-07-21 03:16:50,674 INFO mt_reducer - Obtaining radius testclasses....
+2021-07-21 03:16:51,023 INFO mt_reducer - Obtaining radius classespred....
+2021-07-21 03:16:51,371 INFO m_reducer - Ploting confusion matrix...
+2021-07-21 03:16:51,608 WARN m_reducer - Warning: Load accuracy and model not yet implemented!
+2021-07-21 03:16:51,854 WARN m_reducer - Warning: Confusion chart will not be saved!
+2021-07-21 03:16:52,144 INFO t_reducer - Training stopped, finished or not started
+2021-07-21 03:16:52,405 INFO m_reducer - check accuracy variable = 0.95556
+2021-07-21 03:16:52,928 INFO m_reducer - done!
+2021-07-21 03:33:48,638 INFO LSTMDDToolBox - Log started at toolbox/logger/20210721033348.txt
+2021-07-21 03:33:48,922 INFO general_reducer - event is  TOOLBOX_OBSERVER_ATTACHED
+2021-07-21 03:33:49,161 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_START_ANGLE : 20
+2021-07-21 03:33:49,410 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033349
+2021-07-21 03:33:49,694 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033349
+2021-07-21 03:33:49,963 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_END_ANGLE : 90
+2021-07-21 03:33:50,167 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033349
+2021-07-21 03:33:50,403 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033350
+2021-07-21 03:33:50,646 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_RADIUS : 10
+2021-07-21 03:33:50,903 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033350
+2021-07-21 03:33:51,124 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033350
+2021-07-21 03:33:51,325 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_HEIGHT : 15
+2021-07-21 03:33:51,538 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033351
+2021-07-21 03:33:51,766 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033351
+2021-07-21 03:33:51,997 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_PLOT_GRAPHS : false
+2021-07-21 03:33:52,287 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033352
+2021-07-21 03:33:52,509 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033352
+2021-07-21 03:33:52,770 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_RESOLUTION : 0.05
+2021-07-21 03:33:53,061 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033352
+2021-07-21 03:33:53,353 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033353
+2021-07-21 03:33:53,568 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_SIMULATION_COUNT : 2
+2021-07-21 03:33:53,800 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033353
+2021-07-21 03:33:54,006 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033353
+2021-07-21 03:35:01,770 INFO LSTMDDToolBox - Log started at toolbox/logger/20210721033501.txt
+2021-07-21 03:35:02,096 INFO general_reducer - event is  TOOLBOX_OBSERVER_ATTACHED
+2021-07-21 03:35:02,358 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_START_ANGLE : 20
+2021-07-21 03:35:02,675 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033502
+2021-07-21 03:35:02,955 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033502
+2021-07-21 03:35:03,254 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_END_ANGLE : 90
+2021-07-21 03:35:03,543 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033503
+2021-07-21 03:35:03,795 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033503
+2021-07-21 03:35:04,033 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_RADIUS : 10
+2021-07-21 03:35:04,271 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033504
+2021-07-21 03:35:04,524 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033504
+2021-07-21 03:35:04,740 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_HEIGHT : 15
+2021-07-21 03:35:05,133 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033504
+2021-07-21 03:35:05,419 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033505
+2021-07-21 03:35:05,668 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_PLOT_GRAPHS : false
+2021-07-21 03:35:05,935 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033505
+2021-07-21 03:35:06,170 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033505
+2021-07-21 03:35:06,429 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_RESOLUTION : 0.05
+2021-07-21 03:35:06,675 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033506
+2021-07-21 03:35:06,929 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033506
+2021-07-21 03:35:07,163 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_SIMULATION_COUNT : 2
+2021-07-21 03:35:07,386 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033507
+2021-07-21 03:35:07,622 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721033507
+2021-07-21 03:36:15,213 DEBUG LSTMDDToolBox - epoch event value is  74.059
+2021-07-21 03:44:26,708 INFO LSTMDDToolBox - Log started at toolbox/logger/20210721034426.txt
+2021-07-21 03:44:26,934 INFO general_reducer - event is  TOOLBOX_OBSERVER_ATTACHED
+2021-07-21 03:44:27,187 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_START_ANGLE : 20
+2021-07-21 03:44:27,394 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721034427
+2021-07-21 03:44:27,581 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721034427
+2021-07-21 03:44:27,804 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_END_ANGLE : 90
+2021-07-21 03:44:28,079 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721034427
+2021-07-21 03:44:28,406 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721034428
+2021-07-21 03:44:28,739 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_RADIUS : 10
+2021-07-21 03:44:29,017 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721034428
+2021-07-21 03:44:29,272 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721034429
+2021-07-21 03:44:29,474 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_HEIGHT : 15
+2021-07-21 03:44:29,662 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721034429
+2021-07-21 03:44:29,906 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721034429
+2021-07-21 03:44:30,116 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_PLOT_GRAPHS : false
+2021-07-21 03:44:30,316 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721034430
+2021-07-21 03:44:30,502 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721034430
+2021-07-21 03:44:30,720 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_RESOLUTION : 0.05
+2021-07-21 03:44:31,034 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721034430
+2021-07-21 03:44:31,405 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721034431
+2021-07-21 03:44:31,726 TRACE tpps_reducer - ToolboxAction = TPPS_EDIT_SIMULATION_COUNT : 2
+2021-07-21 03:44:31,974 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721034431
+2021-07-21 03:44:32,205 TRACE tpps_reducer - ToolboxAction = G_UID_SET : 20210721034431
+2021-07-21 04:52:16,293 INFO LSTMDDToolBox - Log started at toolbox/logger/20210721045216.txt
+2021-07-21 04:52:16,504 INFO general_reducer - event is  TOOLBOX_OBSERVER_ATTACHED
+2021-07-21 04:52:16,757 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_START_ANGLE : 20
+2021-07-21 04:55:43,068 INFO LSTMDDToolBox - Log started at toolbox/logger/20210721045542.txt
+2021-07-21 04:55:43,278 INFO general_reducer - event is  TOOLBOX_OBSERVER_ATTACHED
+2021-07-21 04:55:43,531 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_START_ANGLE : 20
+2021-07-21 04:55:43,783 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721045543
+2021-07-21 04:55:43,993 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721045543
+2021-07-21 04:55:44,254 WARN tpps_reducer - G_UID_SET not implemented
+2021-07-21 04:55:48,925 WARN tpps_reducer - G_UID_SET not implemented
+2021-07-21 04:55:49,166 WARN tpps_reducer - TPPS_EDIT_START_ANGLE not implemented
+2021-07-21 04:55:49,414 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_END_ANGLE : 90
+2021-07-21 04:55:49,729 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721045549
+2021-07-21 04:55:49,932 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721045549
+2021-07-21 04:55:50,198 WARN tpps_reducer - G_UID_SET not implemented
+2021-07-21 04:55:50,422 WARN tpps_reducer - G_UID_SET not implemented
+2021-07-21 04:55:50,684 WARN tpps_reducer - TPPS_EDIT_END_ANGLE not implemented
+2021-07-21 04:55:50,883 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_RADIUS : 10
+2021-07-21 04:55:51,119 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721045550
+2021-07-21 04:55:51,343 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721045551
+2021-07-21 04:55:51,604 WARN tpps_reducer - G_UID_SET not implemented
+2021-07-21 04:55:51,798 WARN tpps_reducer - G_UID_SET not implemented
+2021-07-21 04:55:52,034 WARN tpps_reducer - TPPS_EDIT_RADIUS not implemented
+2021-07-21 04:55:52,236 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_HEIGHT : 15
+2021-07-21 04:55:52,500 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721045552
+2021-07-21 04:55:52,699 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721045552
+2021-07-21 04:55:52,944 WARN tpps_reducer - G_UID_SET not implemented
+2021-07-21 04:55:53,187 WARN tpps_reducer - G_UID_SET not implemented
+2021-07-21 04:55:54,352 WARN tpps_reducer - TPPS_EDIT_HEIGHT not implemented
+2021-07-21 04:55:54,636 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_PLOT_GRAPHS : false
+2021-07-21 04:55:54,882 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721045554
+2021-07-21 04:55:55,193 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721045554
+2021-07-21 04:55:55,431 WARN tpps_reducer - G_UID_SET not implemented
+2021-07-21 04:55:55,677 WARN tpps_reducer - G_UID_SET not implemented
+2021-07-21 04:55:55,917 WARN tpps_reducer - TPPS_EDIT_PLOT_GRAPHS not implemented
+2021-07-21 04:55:56,199 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_RESOLUTION : 0.05
+2021-07-21 04:55:56,435 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721045556
+2021-07-21 04:55:56,704 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721045556
+2021-07-21 04:55:56,940 WARN tpps_reducer - G_UID_SET not implemented
+2021-07-21 04:55:57,187 WARN tpps_reducer - G_UID_SET not implemented
+2021-07-21 04:55:57,418 WARN tpps_reducer - TPPS_EDIT_RESOLUTION not implemented
+2021-07-21 04:55:57,677 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_SIMULATION_COUNT : 2
+2021-07-21 04:55:57,920 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721045557
+2021-07-21 04:55:58,184 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721045557
+2021-07-21 04:55:58,403 WARN tpps_reducer - G_UID_SET not implemented
+2021-07-21 04:55:58,664 WARN tpps_reducer - G_UID_SET not implemented
+2021-07-21 04:55:58,934 WARN tpps_reducer - TPPS_EDIT_SIMULATION_COUNT not implemented
+2021-07-21 04:55:59,200 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_EPOCHS : 50
+2021-07-21 04:55:59,444 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721045559
+2021-07-21 04:55:59,665 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721045559
+2021-07-21 04:55:59,899 WARN tpps_reducer - G_UID_SET not implemented
+2021-07-21 04:56:00,145 WARN tpps_reducer - G_UID_SET not implemented
+2021-07-21 05:08:53,888 INFO LSTMDDToolBox - Log started at toolbox/logger/20210721050853.txt
+2021-07-21 05:08:54,182 INFO general_reducer - event is  TOOLBOX_OBSERVER_ATTACHED
+2021-07-21 05:08:54,435 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_START_ANGLE : 20
+2021-07-21 05:08:54,623 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721050854
+2021-07-21 05:08:54,914 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721050854
+2021-07-21 05:08:55,165 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:08:55,442 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:08:55,621 WARN tpps_reducer - Warning: TPPS_EDIT_START_ANGLE not implemented
+2021-07-21 05:08:55,822 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_END_ANGLE : 90
+2021-07-21 05:08:56,122 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721050855
+2021-07-21 05:08:56,411 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721050856
+2021-07-21 05:08:56,729 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:08:57,024 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:08:57,295 WARN tpps_reducer - Warning: TPPS_EDIT_END_ANGLE not implemented
+2021-07-21 05:08:57,518 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_RADIUS : 10
+2021-07-21 05:08:57,722 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721050857
+2021-07-21 05:08:57,960 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721050857
+2021-07-21 05:08:58,166 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:08:58,414 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:08:58,638 WARN tpps_reducer - Warning: TPPS_EDIT_RADIUS not implemented
+2021-07-21 05:08:58,832 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_HEIGHT : 15
+2021-07-21 05:08:59,090 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721050858
+2021-07-21 05:08:59,321 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721050859
+2021-07-21 05:08:59,601 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:08:59,838 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:09:00,070 WARN tpps_reducer - Warning: TPPS_EDIT_HEIGHT not implemented
+2021-07-21 05:09:00,357 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_PLOT_GRAPHS : false
+2021-07-21 05:09:00,633 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721050900
+2021-07-21 05:09:00,876 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721050900
+2021-07-21 05:09:01,063 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:09:01,354 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:09:01,566 WARN tpps_reducer - Warning: TPPS_EDIT_PLOT_GRAPHS not implemented
+2021-07-21 05:09:01,814 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_RESOLUTION : 0.05
+2021-07-21 05:09:02,062 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721050901
+2021-07-21 05:09:02,320 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721050902
+2021-07-21 05:09:02,552 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:09:02,780 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:09:03,001 WARN tpps_reducer - Warning: TPPS_EDIT_RESOLUTION not implemented
+2021-07-21 05:09:03,238 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_SIMULATION_COUNT : 2
+2021-07-21 05:09:03,432 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721050903
+2021-07-21 05:09:03,717 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721050903
+2021-07-21 05:09:03,919 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:09:04,199 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:09:04,477 WARN tpps_reducer - Warning: TPPS_EDIT_SIMULATION_COUNT not implemented
+2021-07-21 05:09:04,798 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_EPOCHS : 50
+2021-07-21 05:09:05,075 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721050904
+2021-07-21 05:09:05,374 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721050905
+2021-07-21 05:09:05,658 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:09:05,902 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:11:18,287 INFO LSTMDDToolBox - Log started at toolbox/logger/20210721051118.txt
+2021-07-21 05:11:18,543 INFO general_reducer - event is  TOOLBOX_OBSERVER_ATTACHED
+2021-07-21 05:11:18,790 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_START_ANGLE : 20
+2021-07-21 05:11:19,016 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051118
+2021-07-21 05:11:19,299 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051119
+2021-07-21 05:11:19,603 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:11:19,869 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:11:20,132 WARN tpps_reducer - Warning: TPPS_EDIT_START_ANGLE not implemented
+2021-07-21 05:11:20,370 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_END_ANGLE : 90
+2021-07-21 05:11:20,570 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051120
+2021-07-21 05:11:20,823 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051120
+2021-07-21 05:11:21,078 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:11:21,316 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:11:21,545 WARN tpps_reducer - Warning: TPPS_EDIT_END_ANGLE not implemented
+2021-07-21 05:11:21,786 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_RADIUS : 10
+2021-07-21 05:11:22,052 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051121
+2021-07-21 05:11:22,301 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051122
+2021-07-21 05:11:22,563 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:11:22,824 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:11:23,066 WARN tpps_reducer - Warning: TPPS_EDIT_RADIUS not implemented
+2021-07-21 05:11:23,336 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_HEIGHT : 15
+2021-07-21 05:11:23,628 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051123
+2021-07-21 05:11:23,845 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051123
+2021-07-21 05:11:24,150 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:11:24,615 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:11:24,876 WARN tpps_reducer - Warning: TPPS_EDIT_HEIGHT not implemented
+2021-07-21 05:11:25,141 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_PLOT_GRAPHS : false
+2021-07-21 05:11:25,401 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051125
+2021-07-21 05:11:25,659 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051125
+2021-07-21 05:11:25,939 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:11:26,228 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:11:26,484 WARN tpps_reducer - Warning: TPPS_EDIT_PLOT_GRAPHS not implemented
+2021-07-21 05:11:26,809 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_RESOLUTION : 0.05
+2021-07-21 05:11:27,086 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051126
+2021-07-21 05:11:27,356 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051127
+2021-07-21 05:11:27,561 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:11:27,764 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:11:28,002 WARN tpps_reducer - Warning: TPPS_EDIT_RESOLUTION not implemented
+2021-07-21 05:11:28,354 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_SIMULATION_COUNT : 2
+2021-07-21 05:11:28,708 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051128
+2021-07-21 05:11:28,970 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051128
+2021-07-21 05:11:29,239 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:11:29,532 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:11:29,816 WARN tpps_reducer - Warning: TPPS_EDIT_SIMULATION_COUNT not implemented
+2021-07-21 05:11:30,112 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_EPOCHS : 50
+2021-07-21 05:11:30,403 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051130
+2021-07-21 05:11:30,654 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051130
+2021-07-21 05:11:30,950 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:11:31,270 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:12:17,843 DEBUG LSTMDDToolBox - epoch event value is  74.6238
+2021-07-21 05:14:27,215 INFO LSTMDDToolBox - Log started at toolbox/logger/20210721051427.txt
+2021-07-21 05:14:27,456 INFO general_reducer - event is  TOOLBOX_OBSERVER_ATTACHED
+2021-07-21 05:14:27,716 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_START_ANGLE : 20
+2021-07-21 05:14:27,962 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051427
+2021-07-21 05:14:28,211 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051427
+2021-07-21 05:14:28,469 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:14:28,687 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:14:28,906 WARN tpps_reducer - Warning: TPPS_EDIT_START_ANGLE not implemented
+2021-07-21 05:14:29,174 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_END_ANGLE : 90
+2021-07-21 05:14:29,385 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051429
+2021-07-21 05:14:29,615 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051429
+2021-07-21 05:14:29,827 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:14:30,048 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:14:30,252 WARN tpps_reducer - Warning: TPPS_EDIT_END_ANGLE not implemented
+2021-07-21 05:14:30,502 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_RADIUS : 10
+2021-07-21 05:14:30,766 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051430
+2021-07-21 05:14:31,004 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051430
+2021-07-21 05:14:31,267 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:14:31,458 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:14:31,728 WARN tpps_reducer - Warning: TPPS_EDIT_RADIUS not implemented
+2021-07-21 05:14:31,966 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_HEIGHT : 15
+2021-07-21 05:14:32,175 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051431
+2021-07-21 05:14:32,443 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051432
+2021-07-21 05:14:32,613 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:14:32,845 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:14:33,069 WARN tpps_reducer - Warning: TPPS_EDIT_HEIGHT not implemented
+2021-07-21 05:14:33,301 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_PLOT_GRAPHS : false
+2021-07-21 05:14:33,503 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051433
+2021-07-21 05:14:33,714 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051433
+2021-07-21 05:14:33,933 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:14:34,131 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:14:34,372 WARN tpps_reducer - Warning: TPPS_EDIT_PLOT_GRAPHS not implemented
+2021-07-21 05:14:34,661 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_RESOLUTION : 0.05
+2021-07-21 05:14:34,901 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051434
+2021-07-21 05:14:35,095 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051434
+2021-07-21 05:14:35,365 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:14:35,636 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:14:35,883 WARN tpps_reducer - Warning: TPPS_EDIT_RESOLUTION not implemented
+2021-07-21 05:14:36,096 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_SIMULATION_COUNT : 2
+2021-07-21 05:14:36,334 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051436
+2021-07-21 05:14:36,603 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051436
+2021-07-21 05:14:36,816 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:14:37,086 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:14:37,332 WARN tpps_reducer - Warning: TPPS_EDIT_SIMULATION_COUNT not implemented
+2021-07-21 05:14:37,590 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_EPOCHS : 50
+2021-07-21 05:14:37,873 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051437
+2021-07-21 05:14:38,129 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051437
+2021-07-21 05:14:38,361 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:14:38,600 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:15:23,789 INFO LSTMDDToolBox - Log started at toolbox/logger/20210721051523.txt
+2021-07-21 05:15:24,032 INFO general_reducer - event is  TOOLBOX_OBSERVER_ATTACHED
+2021-07-21 05:15:24,258 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_START_ANGLE : 20
+2021-07-21 05:15:24,526 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051524
+2021-07-21 05:15:24,923 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051524
+2021-07-21 05:15:25,154 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:15:25,411 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:15:25,648 WARN tpps_reducer - Warning: TPPS_EDIT_START_ANGLE not implemented
+2021-07-21 05:15:25,896 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_END_ANGLE : 90
+2021-07-21 05:15:26,209 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051525
+2021-07-21 05:15:26,479 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051526
+2021-07-21 05:15:26,663 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:15:26,869 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:15:27,125 WARN tpps_reducer - Warning: TPPS_EDIT_END_ANGLE not implemented
+2021-07-21 05:15:27,351 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_RADIUS : 10
+2021-07-21 05:15:27,606 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051527
+2021-07-21 05:15:27,838 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051527
+2021-07-21 05:15:28,078 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:15:28,361 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:15:28,654 WARN tpps_reducer - Warning: TPPS_EDIT_RADIUS not implemented
+2021-07-21 05:15:28,895 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_HEIGHT : 15
+2021-07-21 05:15:29,164 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051528
+2021-07-21 05:15:29,367 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051529
+2021-07-21 05:15:29,618 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:15:29,922 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:15:30,141 WARN tpps_reducer - Warning: TPPS_EDIT_HEIGHT not implemented
+2021-07-21 05:15:30,336 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_PLOT_GRAPHS : false
+2021-07-21 05:15:30,600 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051530
+2021-07-21 05:15:30,867 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051530
+2021-07-21 05:15:31,172 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:15:31,406 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:15:31,676 WARN tpps_reducer - Warning: TPPS_EDIT_PLOT_GRAPHS not implemented
+2021-07-21 05:15:31,916 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_RESOLUTION : 0.05
+2021-07-21 05:15:32,134 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051531
+2021-07-21 05:15:32,400 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051532
+2021-07-21 05:15:32,640 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:15:32,960 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:15:33,208 WARN tpps_reducer - Warning: TPPS_EDIT_RESOLUTION not implemented
+2021-07-21 05:15:33,494 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_SIMULATION_COUNT : 2
+2021-07-21 05:15:33,741 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051533
+2021-07-21 05:15:33,965 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051533
+2021-07-21 05:15:34,282 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:15:34,556 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:15:34,804 WARN tpps_reducer - Warning: TPPS_EDIT_SIMULATION_COUNT not implemented
+2021-07-21 05:15:35,077 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_EPOCHS : 50
+2021-07-21 05:15:35,291 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051535
+2021-07-21 05:15:35,545 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051535
+2021-07-21 05:15:35,751 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:15:35,998 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:16:25,310 INFO LSTMDDToolBox - Log started at toolbox/logger/20210721051625.txt
+2021-07-21 05:16:25,550 INFO general_reducer - event is  TOOLBOX_OBSERVER_ATTACHED
+2021-07-21 05:16:25,788 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_START_ANGLE : 20
+2021-07-21 05:16:26,066 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051625
+2021-07-21 05:16:26,298 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051626
+2021-07-21 05:16:26,576 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:16:26,803 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:16:27,042 WARN tpps_reducer - Warning: TPPS_EDIT_START_ANGLE not implemented
+2021-07-21 05:16:27,349 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_END_ANGLE : 90
+2021-07-21 05:16:27,698 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051627
+2021-07-21 05:16:27,928 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051627
+2021-07-21 05:16:28,186 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:16:28,419 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:16:28,694 WARN tpps_reducer - Warning: TPPS_EDIT_END_ANGLE not implemented
+2021-07-21 05:16:28,921 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_RADIUS : 10
+2021-07-21 05:16:29,171 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051628
+2021-07-21 05:16:29,473 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051629
+2021-07-21 05:16:29,756 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:16:29,999 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:16:30,283 WARN tpps_reducer - Warning: TPPS_EDIT_RADIUS not implemented
+2021-07-21 05:16:30,573 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_HEIGHT : 15
+2021-07-21 05:16:30,868 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051630
+2021-07-21 05:16:31,135 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051630
+2021-07-21 05:16:31,371 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:16:31,636 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:16:31,946 WARN tpps_reducer - Warning: TPPS_EDIT_HEIGHT not implemented
+2021-07-21 05:16:32,255 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_PLOT_GRAPHS : false
+2021-07-21 05:16:32,542 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051632
+2021-07-21 05:16:32,913 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051632
+2021-07-21 05:16:33,188 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:16:33,439 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:16:33,671 WARN tpps_reducer - Warning: TPPS_EDIT_PLOT_GRAPHS not implemented
+2021-07-21 05:16:33,927 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_RESOLUTION : 0.05
+2021-07-21 05:16:34,159 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051633
+2021-07-21 05:16:34,373 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051634
+2021-07-21 05:16:34,666 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:16:35,013 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:16:35,220 WARN tpps_reducer - Warning: TPPS_EDIT_RESOLUTION not implemented
+2021-07-21 05:16:35,494 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_SIMULATION_COUNT : 2
+2021-07-21 05:16:35,756 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051635
+2021-07-21 05:16:36,017 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051635
+2021-07-21 05:16:36,240 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:16:36,470 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:16:36,705 WARN tpps_reducer - Warning: TPPS_EDIT_SIMULATION_COUNT not implemented
+2021-07-21 05:16:36,917 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_EPOCHS : 50
+2021-07-21 05:16:37,112 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051636
+2021-07-21 05:16:37,348 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051637
+2021-07-21 05:16:37,622 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:16:37,854 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:16:38,092 DEBUG tpps_reducer - value from tppps_epochs event = 50
+2021-07-21 05:17:07,539 DEBUG LSTMDDToolBox - epoch event value is  78.1603
+2021-07-21 05:17:07,727 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_EPOCHS : 78.1603
+2021-07-21 05:17:07,925 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051707
+2021-07-21 05:17:08,197 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051707
+2021-07-21 05:17:08,385 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:17:08,687 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:17:08,952 DEBUG tpps_reducer - value from tppps_epochs event = 78.1603
+2021-07-21 05:19:02,220 INFO LSTMDDToolBox - Log started at toolbox/logger/20210721051902.txt
+2021-07-21 05:19:02,439 INFO general_reducer - event is  TOOLBOX_OBSERVER_ATTACHED
+2021-07-21 05:19:02,674 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_START_ANGLE : 20
+2021-07-21 05:19:02,932 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051902
+2021-07-21 05:19:03,138 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051902
+2021-07-21 05:19:03,309 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:19:03,507 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:19:03,715 WARN tpps_reducer - Warning: TPPS_EDIT_START_ANGLE not implemented
+2021-07-21 05:19:03,925 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_END_ANGLE : 90
+2021-07-21 05:19:04,135 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051903
+2021-07-21 05:19:04,381 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051904
+2021-07-21 05:19:04,663 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:19:04,903 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:19:05,123 WARN tpps_reducer - Warning: TPPS_EDIT_END_ANGLE not implemented
+2021-07-21 05:19:05,320 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_RADIUS : 10
+2021-07-21 05:19:05,561 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051905
+2021-07-21 05:19:05,772 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051905
+2021-07-21 05:19:05,992 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:19:06,179 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:19:06,420 WARN tpps_reducer - Warning: TPPS_EDIT_RADIUS not implemented
+2021-07-21 05:19:06,646 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_HEIGHT : 15
+2021-07-21 05:19:06,860 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051906
+2021-07-21 05:19:07,124 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051906
+2021-07-21 05:19:07,358 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:19:07,561 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:19:07,816 WARN tpps_reducer - Warning: TPPS_EDIT_HEIGHT not implemented
+2021-07-21 05:19:08,023 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_PLOT_GRAPHS : false
+2021-07-21 05:19:08,249 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051908
+2021-07-21 05:19:08,457 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051908
+2021-07-21 05:19:08,666 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:19:08,909 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:19:09,091 WARN tpps_reducer - Warning: TPPS_EDIT_PLOT_GRAPHS not implemented
+2021-07-21 05:19:09,355 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_RESOLUTION : 0.05
+2021-07-21 05:19:09,557 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051909
+2021-07-21 05:19:09,801 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051909
+2021-07-21 05:19:10,021 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:19:10,241 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:19:10,484 WARN tpps_reducer - Warning: TPPS_EDIT_RESOLUTION not implemented
+2021-07-21 05:19:10,732 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_SIMULATION_COUNT : 2
+2021-07-21 05:19:10,941 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051910
+2021-07-21 05:19:11,184 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051910
+2021-07-21 05:19:11,446 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:19:11,704 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:19:11,944 WARN tpps_reducer - Warning: TPPS_EDIT_SIMULATION_COUNT not implemented
+2021-07-21 05:19:12,153 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_EPOCHS : 50
+2021-07-21 05:19:12,344 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051912
+2021-07-21 05:19:12,586 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721051912
+2021-07-21 05:19:12,799 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:19:13,037 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:19:13,244 DEBUG tpps_reducer - value from tppps_epochs event = 50
+2021-07-21 05:22:58,041 INFO LSTMDDToolBox - Log started at toolbox/logger/20210721052257.txt
+2021-07-21 05:22:58,229 INFO general_reducer - event is  TOOLBOX_OBSERVER_ATTACHED
+2021-07-21 05:22:58,493 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_START_ANGLE : 20
+2021-07-21 05:22:58,703 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721052258
+2021-07-21 05:22:58,928 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721052258
+2021-07-21 05:22:59,136 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:22:59,407 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:22:59,627 WARN tpps_reducer - Warning: TPPS_EDIT_START_ANGLE not implemented
+2021-07-21 05:22:59,847 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_END_ANGLE : 90
+2021-07-21 05:23:00,126 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721052259
+2021-07-21 05:23:00,349 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721052300
+2021-07-21 05:23:00,611 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:23:00,848 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:23:01,116 WARN tpps_reducer - Warning: TPPS_EDIT_END_ANGLE not implemented
+2021-07-21 05:23:01,353 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_RADIUS : 10
+2021-07-21 05:23:01,592 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721052301
+2021-07-21 05:23:01,805 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721052301
+2021-07-21 05:23:02,084 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:23:02,343 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:23:02,596 WARN tpps_reducer - Warning: TPPS_EDIT_RADIUS not implemented
+2021-07-21 05:23:02,850 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_HEIGHT : 15
+2021-07-21 05:23:03,104 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721052302
+2021-07-21 05:23:03,338 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721052303
+2021-07-21 05:23:03,576 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:23:03,820 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:23:04,076 WARN tpps_reducer - Warning: TPPS_EDIT_HEIGHT not implemented
+2021-07-21 05:23:04,294 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_PLOT_GRAPHS : false
+2021-07-21 05:23:04,563 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721052304
+2021-07-21 05:23:04,740 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721052304
+2021-07-21 05:23:04,920 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:23:05,157 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:23:05,339 WARN tpps_reducer - Warning: TPPS_EDIT_PLOT_GRAPHS not implemented
+2021-07-21 05:23:05,560 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_RESOLUTION : 0.05
+2021-07-21 05:23:05,788 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721052305
+2021-07-21 05:23:06,005 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721052305
+2021-07-21 05:23:06,230 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:23:06,473 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:23:06,711 WARN tpps_reducer - Warning: TPPS_EDIT_RESOLUTION not implemented
+2021-07-21 05:23:06,916 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_SIMULATION_COUNT : 2
+2021-07-21 05:23:07,152 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721052306
+2021-07-21 05:23:07,432 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721052307
+2021-07-21 05:23:07,687 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:23:07,966 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:23:08,190 WARN tpps_reducer - Warning: TPPS_EDIT_SIMULATION_COUNT not implemented
+2021-07-21 05:23:08,437 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_EPOCHS : 50
+2021-07-21 05:23:08,672 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721052308
+2021-07-21 05:23:08,904 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721052308
+2021-07-21 05:23:09,157 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:23:09,420 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:23:09,641 DEBUG tpps_reducer - value from tppps_epochs event = 50
+2021-07-21 05:23:35,507 DEBUG LSTMDDToolBox - epoch event value is  60.7837
+2021-07-21 05:23:35,743 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_EPOCHS : 61
+2021-07-21 05:23:36,046 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721052335
+2021-07-21 05:23:36,298 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210721052336
+2021-07-21 05:23:36,530 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:23:36,848 WARN tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-21 05:23:37,123 DEBUG tpps_reducer - value from tppps_epochs event = 61

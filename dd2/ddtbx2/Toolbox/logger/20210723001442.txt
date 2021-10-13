@@ -1,0 +1,173 @@
+2021-07-23 00:14:43,268 INFO LSTMDDToolBox - Log started at toolbox/logger/20210723001442.txt
+2021-07-23 00:14:43,520 INFO general_reducer - event is  TOOLBOX_OBSERVER_ATTACHED
+2021-07-23 00:14:43,816 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_START_ANGLE : 20
+2021-07-23 00:14:44,094 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001443
+2021-07-23 00:14:44,334 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001444
+2021-07-23 00:14:44,544 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:14:44,796 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:14:44,979 TRACE tpps_reducer - Warning: TPPS_EDIT_START_ANGLE not implemented
+2021-07-23 00:14:45,198 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_END_ANGLE : 90
+2021-07-23 00:14:45,406 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001445
+2021-07-23 00:14:45,609 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001445
+2021-07-23 00:14:45,787 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:14:46,017 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:14:46,300 TRACE tpps_reducer - Warning: TPPS_EDIT_END_ANGLE not implemented
+2021-07-23 00:14:46,530 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_RADIUS : 10
+2021-07-23 00:14:46,802 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001446
+2021-07-23 00:14:47,031 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001446
+2021-07-23 00:14:47,262 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:14:47,434 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:14:47,607 TRACE tpps_reducer - Warning: TPPS_EDIT_RADIUS not implemented
+2021-07-23 00:14:47,805 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_HEIGHT : 15
+2021-07-23 00:14:48,050 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001447
+2021-07-23 00:14:48,242 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001448
+2021-07-23 00:14:48,406 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:14:48,641 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:14:48,881 TRACE tpps_reducer - Warning: TPPS_EDIT_HEIGHT not implemented
+2021-07-23 00:14:49,101 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_PLOT_GRAPHS : false
+2021-07-23 00:14:49,345 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001449
+2021-07-23 00:14:49,540 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001449
+2021-07-23 00:14:49,721 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:14:49,896 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:14:50,156 TRACE tpps_reducer - Warning: TPPS_EDIT_PLOT_GRAPHS not implemented
+2021-07-23 00:14:50,397 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_RESOLUTION : 0.05
+2021-07-23 00:14:50,641 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001450
+2021-07-23 00:14:50,813 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001450
+2021-07-23 00:14:51,084 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:14:51,327 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:14:51,503 TRACE tpps_reducer - Warning: TPPS_EDIT_RESOLUTION not implemented
+2021-07-23 00:14:51,729 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_SIMULATION_COUNT : 2
+2021-07-23 00:14:51,956 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001451
+2021-07-23 00:14:52,206 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001451
+2021-07-23 00:14:52,402 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:14:52,651 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:14:52,850 TRACE tpps_reducer - Warning: TPPS_EDIT_SIMULATION_COUNT not implemented
+2021-07-23 00:14:53,055 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_EPOCHS : 50
+2021-07-23 00:14:53,319 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001453
+2021-07-23 00:14:53,524 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001453
+2021-07-23 00:14:53,724 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:14:53,946 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:15:00,537 INFO t_reducer - Training Started!
+2021-07-23 00:18:46,144 INFO LSTMDDToolBox - Log started at toolbox/logger/20210723001846.txt
+2021-07-23 00:18:46,334 INFO general_reducer - event is  TOOLBOX_OBSERVER_ATTACHED
+2021-07-23 00:18:46,601 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_START_ANGLE : 20
+2021-07-23 00:18:46,806 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001846
+2021-07-23 00:18:47,065 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001846
+2021-07-23 00:18:47,331 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:18:47,566 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:18:47,787 TRACE tpps_reducer - Warning: TPPS_EDIT_START_ANGLE not implemented
+2021-07-23 00:18:48,021 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_END_ANGLE : 90
+2021-07-23 00:18:48,269 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001848
+2021-07-23 00:18:48,547 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001848
+2021-07-23 00:18:48,787 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:18:49,043 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:18:49,228 TRACE tpps_reducer - Warning: TPPS_EDIT_END_ANGLE not implemented
+2021-07-23 00:18:49,518 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_RADIUS : 10
+2021-07-23 00:18:49,720 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001849
+2021-07-23 00:18:49,894 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001849
+2021-07-23 00:18:50,119 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:18:50,298 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:18:50,521 TRACE tpps_reducer - Warning: TPPS_EDIT_RADIUS not implemented
+2021-07-23 00:18:50,714 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_HEIGHT : 15
+2021-07-23 00:18:50,896 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001850
+2021-07-23 00:18:51,099 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001850
+2021-07-23 00:18:51,335 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:18:51,542 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:18:51,781 TRACE tpps_reducer - Warning: TPPS_EDIT_HEIGHT not implemented
+2021-07-23 00:18:52,006 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_PLOT_GRAPHS : false
+2021-07-23 00:18:52,190 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001852
+2021-07-23 00:18:52,441 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001852
+2021-07-23 00:18:52,701 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:18:52,879 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:18:53,158 TRACE tpps_reducer - Warning: TPPS_EDIT_PLOT_GRAPHS not implemented
+2021-07-23 00:18:53,344 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_RESOLUTION : 0.05
+2021-07-23 00:18:53,562 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001853
+2021-07-23 00:18:53,747 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001853
+2021-07-23 00:18:53,940 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:18:54,166 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:18:54,375 TRACE tpps_reducer - Warning: TPPS_EDIT_RESOLUTION not implemented
+2021-07-23 00:18:54,573 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_SIMULATION_COUNT : 2
+2021-07-23 00:18:54,794 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001854
+2021-07-23 00:18:55,028 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001854
+2021-07-23 00:18:55,209 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:18:55,413 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:18:55,618 TRACE tpps_reducer - Warning: TPPS_EDIT_SIMULATION_COUNT not implemented
+2021-07-23 00:18:55,811 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_EPOCHS : 50
+2021-07-23 00:18:56,016 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001855
+2021-07-23 00:18:56,228 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723001856
+2021-07-23 00:18:56,442 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:18:56,655 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:19:03,414 INFO t_reducer - Training Started!
+2021-07-23 00:19:06,657 INFO tps_reducer - Training radius dataset prepared!
+2021-07-23 00:19:06,845 WARN tps_reducer - Training radius description modification not implemented!
+2021-07-23 00:19:07,045 INFO tps_reducer - Training radius classes prepared!
+2021-07-23 00:19:07,280 INFO tps_reducer - Training point cloud processed!
+2021-07-23 00:37:30,520 INFO LSTMDDToolBox - Log started at toolbox/logger/20210723003730.txt
+2021-07-23 00:37:30,783 INFO general_reducer - event is  TOOLBOX_OBSERVER_ATTACHED
+2021-07-23 00:37:31,007 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_START_ANGLE : 20
+2021-07-23 00:37:31,211 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723003731
+2021-07-23 00:37:31,374 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723003731
+2021-07-23 00:37:31,601 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:37:31,797 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:37:32,022 TRACE tpps_reducer - Warning: TPPS_EDIT_START_ANGLE not implemented
+2021-07-23 00:37:32,239 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_END_ANGLE : 90
+2021-07-23 00:37:32,412 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723003732
+2021-07-23 00:37:32,599 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723003732
+2021-07-23 00:37:32,798 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:37:32,966 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:37:33,199 TRACE tpps_reducer - Warning: TPPS_EDIT_END_ANGLE not implemented
+2021-07-23 00:37:33,390 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_RADIUS : 10
+2021-07-23 00:37:33,602 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723003733
+2021-07-23 00:37:33,815 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723003733
+2021-07-23 00:37:34,058 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:37:34,290 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:37:34,526 TRACE tpps_reducer - Warning: TPPS_EDIT_RADIUS not implemented
+2021-07-23 00:37:34,734 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_HEIGHT : 15
+2021-07-23 00:37:34,959 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723003734
+2021-07-23 00:37:35,176 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723003734
+2021-07-23 00:37:35,409 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:37:35,642 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:37:35,869 TRACE tpps_reducer - Warning: TPPS_EDIT_HEIGHT not implemented
+2021-07-23 00:37:36,073 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_PLOT_GRAPHS : false
+2021-07-23 00:37:36,297 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723003736
+2021-07-23 00:37:36,513 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723003736
+2021-07-23 00:37:36,701 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:37:36,904 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:37:37,138 TRACE tpps_reducer - Warning: TPPS_EDIT_PLOT_GRAPHS not implemented
+2021-07-23 00:37:37,382 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_RESOLUTION : 0.05
+2021-07-23 00:37:37,567 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723003737
+2021-07-23 00:37:37,744 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723003737
+2021-07-23 00:37:37,949 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:37:38,159 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:37:38,392 TRACE tpps_reducer - Warning: TPPS_EDIT_RESOLUTION not implemented
+2021-07-23 00:37:38,589 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_SIMULATION_COUNT : 2
+2021-07-23 00:37:38,800 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723003738
+2021-07-23 00:37:38,996 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723003738
+2021-07-23 00:37:39,188 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:37:39,445 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:37:39,620 TRACE tpps_reducer - Warning: TPPS_EDIT_SIMULATION_COUNT not implemented
+2021-07-23 00:37:39,816 TRACE tpps_desc_reducer - ToolboxAction = TPPS_EDIT_EPOCHS : 50
+2021-07-23 00:37:40,023 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723003739
+2021-07-23 00:37:40,255 TRACE tpps_desc_reducer - ToolboxAction = G_UID_SET : 20210723003740
+2021-07-23 00:37:40,496 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:37:40,738 TRACE tpps_reducer - Warning: G_UID_SET not implemented
+2021-07-23 00:37:48,382 INFO t_reducer - Training Started!
+2021-07-23 00:37:51,304 INFO tps_reducer - Training radius dataset prepared!
+2021-07-23 00:37:51,528 WARN tps_reducer - Training radius description modification not implemented!
+2021-07-23 00:37:51,760 INFO tps_reducer - Training radius classes prepared!
+2021-07-23 00:37:51,983 INFO tps_reducer - Training point cloud processed!
+2021-07-23 00:37:52,234 INFO mylstm2 - running dataset visualisation
+2021-07-23 00:39:44,272 INFO mylstm - accuracy obtained from training = 0.94444
+2021-07-23 00:39:44,524 INFO m_reducer - Network is set...saving
+2021-07-23 00:39:44,679 INFO mt_reducer - Obtaining radius testdata....
+2021-07-23 00:39:44,863 INFO mt_reducer - Obtaining radius testclasses....
+2021-07-23 00:39:45,038 INFO mt_reducer - Obtaining radius classespred....
+2021-07-23 00:39:45,230 INFO m_reducer - Ploting confusion matrix...
+2021-07-23 00:39:45,773 WARN m_reducer - Warning: Load accuracy and model not yet implemented!
+2021-07-23 00:39:46,005 INFO t_reducer - Training stopped, finished or not started
+2021-07-23 00:39:46,213 DEBUG m_reducer - check accuracy variable = 94.4444 %
+2021-07-23 00:55:41,036 WARN tdloc - Log changed toToolbox/logger/20210723005540.txt
+2021-07-23 00:55:42,078 DEBUG dloc_data_prep - resolution of model = 0.05
+2021-07-23 00:55:42,307 DEBUG dloc_data_prep - radius of model = 10
+2021-07-23 00:55:42,578 DEBUG dloc_data_prep - height of model = 9999.9
+2021-07-23 00:55:42,811 DEBUG dloc_data_prep - plotting..

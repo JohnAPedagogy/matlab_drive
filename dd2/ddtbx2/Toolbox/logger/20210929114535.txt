@@ -1,0 +1,23 @@
+2021-09-29 11:45:36,053 WARN get_store - Log changed to Toolbox/logger/20210929114535.txt
+2021-09-29 11:48:22,780 INFO mylstm2 - running dataset visualisation
+2021-09-29 11:49:45,207 INFO mylstm - accuracy obtained from training = 0.82222
+2021-09-29 12:10:12,321 DEBUG dloc - resolution of model = 0.05
+2021-09-29 12:10:12,527 DEBUG dloc - radius of model = 10
+2021-09-29 12:10:12,549 DEBUG dloc - height of model = 14.9998
+2021-09-29 12:10:12,682 DEBUG dloc - plotting...
+2021-09-29 12:10:12,921 DEBUG dloc - trace:j,curr,prev 50 4 4
+2021-09-29 12:10:12,997 DEBUG dloc - trace:j,curr,prev 100 4 4
+2021-09-29 12:10:13,077 DEBUG dloc - trace:j,curr,prev 150 7 7
+2021-09-29 12:10:13,130 DEBUG dloc - trace:j,curr,prev 200 4 4
+2021-09-29 12:10:13,178 DEBUG dloc - trace:j, data size: 250 699 3
+2021-09-29 12:10:13,193 DEBUG dloc - trace:j,curr,prev 250 4 4
+2021-09-29 12:13:05,490 DEBUG dloc - resolution of model = 0.05
+2021-09-29 12:13:05,989 DEBUG dloc - radius of model = 10
+2021-09-29 12:13:06,008 DEBUG dloc - height of model = 14.9998
+2021-09-29 12:13:06,162 DEBUG dloc - plotting...
+2021-09-29 12:13:06,233 DEBUG dloc - trace:j,curr,prev 50 7 7
+2021-09-29 12:13:06,269 DEBUG dloc - trace:j,curr,prev 100 7 7
+2021-09-29 12:13:06,309 DEBUG dloc - trace:j,curr,prev 150 4 4
+2021-09-29 12:13:06,349 DEBUG dloc - trace:j,curr,prev 200 7 7
+2021-09-29 12:13:06,387 DEBUG dloc - trace:j, data size: 250 699 3
+2021-09-29 12:13:06,396 DEBUG dloc - trace:j,curr,prev 250 7 7

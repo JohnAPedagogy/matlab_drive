@@ -1,0 +1,132 @@
+2021-07-18 07:07:36,270 INFO LSTMToolBox - Log started at toolbox/logger/20210718070735.txt
+2021-07-18 07:07:36,530 INFO general_reducer - event is  TOOLBOX_OBSERVER_ATTACHED
+2021-07-18 07:07:36,685 INFO tpps_reducer - 20TPPS_EDIT_START_ANGLE
+2021-07-18 07:07:36,937 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-18 07:07:37,177 INFO tpps_reducer - 20210718070736G_UID_SET
+2021-07-18 07:07:37,401 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-18 07:07:37,581 INFO tpps_reducer - 20210718070737G_UID_SET
+2021-07-18 07:07:37,836 INFO tpps_reducer - 90TPPS_EDIT_END_ANGLE
+2021-07-18 07:07:38,091 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-18 07:07:38,326 INFO tpps_reducer - 20210718070738G_UID_SET
+2021-07-18 07:07:38,574 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-18 07:07:38,792 INFO tpps_reducer - 20210718070738G_UID_SET
+2021-07-18 07:07:39,046 INFO tpps_reducer - 10TPPS_EDIT_RADIUS
+2021-07-18 07:07:39,249 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-18 07:07:39,494 INFO tpps_reducer - 20210718070739G_UID_SET
+2021-07-18 07:07:39,697 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-18 07:07:39,953 INFO tpps_reducer - 20210718070739G_UID_SET
+2021-07-18 07:07:40,166 INFO tpps_reducer - 15TPPS_EDIT_HEIGHT
+2021-07-18 07:07:40,401 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-18 07:07:40,583 INFO tpps_reducer - 20210718070740G_UID_SET
+2021-07-18 07:07:40,760 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-18 07:07:40,961 INFO tpps_reducer - 20210718070740G_UID_SET
+2021-07-18 07:07:41,174 INFO tpps_reducer - falseTPPS_EDIT_PLOT_GRAPHS
+2021-07-18 07:07:41,400 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-18 07:07:41,603 INFO tpps_reducer - 20210718070741G_UID_SET
+2021-07-18 07:07:41,818 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-18 07:07:42,061 INFO tpps_reducer - 20210718070741G_UID_SET
+2021-07-18 07:07:42,323 INFO tpps_reducer - 0.05TPPS_EDIT_RESOLUTION
+2021-07-18 07:07:42,557 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-18 07:07:42,882 INFO tpps_reducer - 20210718070742G_UID_SET
+2021-07-18 07:07:43,127 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-18 07:07:43,346 INFO tpps_reducer - 20210718070743G_UID_SET
+2021-07-18 07:07:43,567 INFO tpps_reducer - 2TPPS_EDIT_SIMULATION_COUNT
+2021-07-18 07:07:43,756 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-18 07:07:43,965 INFO tpps_reducer - 20210718070743G_UID_SET
+2021-07-18 07:07:44,171 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-18 07:07:44,390 INFO tpps_reducer - 20210718070744G_UID_SET
+2021-07-18 07:07:44,601 WARN m_reducer - Warning: Load accuracy and model not yet implemented!
+2021-07-18 07:07:44,812 WARN m_reducer - Warning: Netwok and Confusion chart will not saved!
+2021-07-18 07:07:45,023 INFO m_reducer - Saving model..
+2021-07-18 07:07:45,455 INFO m_reducer - done!
+2021-07-18 07:10:37,216 INFO LSTMToolBox - Log started at toolbox/logger/20210718071037.txt
+2021-07-18 07:10:37,437 INFO general_reducer - event is  TOOLBOX_OBSERVER_ATTACHED
+2021-07-18 07:10:37,674 INFO tpps_reducer - 20TPPS_EDIT_START_ANGLE
+2021-07-18 07:10:37,917 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-18 07:10:38,146 INFO tpps_reducer - 20210718071037G_UID_SET
+2021-07-18 07:10:38,356 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-18 07:10:38,580 INFO tpps_reducer - 20210718071038G_UID_SET
+2021-07-18 07:10:38,776 INFO tpps_reducer - 90TPPS_EDIT_END_ANGLE
+2021-07-18 07:10:38,970 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-18 07:10:39,209 INFO tpps_reducer - 20210718071038G_UID_SET
+2021-07-18 07:10:39,475 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-18 07:10:39,702 INFO tpps_reducer - 20210718071039G_UID_SET
+2021-07-18 07:10:39,939 INFO tpps_reducer - 10TPPS_EDIT_RADIUS
+2021-07-18 07:10:40,234 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-18 07:10:40,484 INFO tpps_reducer - 20210718071040G_UID_SET
+2021-07-18 07:10:40,735 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-18 07:10:40,942 INFO tpps_reducer - 20210718071040G_UID_SET
+2021-07-18 07:10:41,188 INFO tpps_reducer - 15TPPS_EDIT_HEIGHT
+2021-07-18 07:10:41,382 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-18 07:10:41,606 INFO tpps_reducer - 20210718071041G_UID_SET
+2021-07-18 07:10:41,840 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-18 07:10:42,076 INFO tpps_reducer - 20210718071041G_UID_SET
+2021-07-18 07:10:42,307 INFO tpps_reducer - falseTPPS_EDIT_PLOT_GRAPHS
+2021-07-18 07:10:42,537 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-18 07:10:42,754 INFO tpps_reducer - 20210718071042G_UID_SET
+2021-07-18 07:10:43,006 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-18 07:10:43,248 INFO tpps_reducer - 20210718071043G_UID_SET
+2021-07-18 07:10:43,476 INFO tpps_reducer - 0.05TPPS_EDIT_RESOLUTION
+2021-07-18 07:10:43,736 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-18 07:10:43,950 INFO tpps_reducer - 20210718071043G_UID_SET
+2021-07-18 07:10:44,175 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-18 07:10:44,368 INFO tpps_reducer - 20210718071044G_UID_SET
+2021-07-18 07:10:44,586 INFO tpps_reducer - 2TPPS_EDIT_SIMULATION_COUNT
+2021-07-18 07:10:44,804 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-18 07:10:45,040 INFO tpps_reducer - 20210718071044G_UID_SET
+2021-07-18 07:10:45,258 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-18 07:10:45,505 INFO tpps_reducer - 20210718071045G_UID_SET
+2021-07-18 07:10:45,716 WARN m_reducer - Warning: Load accuracy and model not yet implemented!
+2021-07-18 07:10:45,921 WARN m_reducer - Warning: Netwok and Confusion chart will not saved!
+2021-07-18 07:13:14,043 INFO LSTMToolBox - Log started at toolbox/logger/20210718071313.txt
+2021-07-18 07:13:14,493 INFO general_reducer - event is  TOOLBOX_OBSERVER_ATTACHED
+2021-07-18 07:13:14,808 INFO tpps_reducer - 20TPPS_EDIT_START_ANGLE
+2021-07-18 07:13:15,116 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-18 07:13:15,388 INFO tpps_reducer - 20210718071315G_UID_SET
+2021-07-18 07:13:15,622 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-18 07:13:15,840 INFO tpps_reducer - 20210718071315G_UID_SET
+2021-07-18 07:13:16,073 INFO tpps_reducer - 90TPPS_EDIT_END_ANGLE
+2021-07-18 07:13:16,325 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-18 07:13:16,564 INFO tpps_reducer - 20210718071316G_UID_SET
+2021-07-18 07:13:16,771 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-18 07:13:17,007 INFO tpps_reducer - 20210718071316G_UID_SET
+2021-07-18 07:13:17,239 INFO tpps_reducer - 10TPPS_EDIT_RADIUS
+2021-07-18 07:13:17,475 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-18 07:13:17,728 INFO tpps_reducer - 20210718071317G_UID_SET
+2021-07-18 07:13:17,992 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-18 07:13:18,289 INFO tpps_reducer - 20210718071317G_UID_SET
+2021-07-18 07:13:18,522 INFO tpps_reducer - 15TPPS_EDIT_HEIGHT
+2021-07-18 07:13:18,791 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-18 07:13:19,075 INFO tpps_reducer - 20210718071318G_UID_SET
+2021-07-18 07:13:19,312 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-18 07:13:19,520 INFO tpps_reducer - 20210718071319G_UID_SET
+2021-07-18 07:13:19,772 INFO tpps_reducer - falseTPPS_EDIT_PLOT_GRAPHS
+2021-07-18 07:13:20,005 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-18 07:13:20,286 INFO tpps_reducer - 20210718071320G_UID_SET
+2021-07-18 07:13:20,484 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-18 07:13:20,721 INFO tpps_reducer - 20210718071320G_UID_SET
+2021-07-18 07:13:21,006 INFO tpps_reducer - 0.05TPPS_EDIT_RESOLUTION
+2021-07-18 07:13:21,310 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-18 07:13:21,630 INFO tpps_reducer - 20210718071321G_UID_SET
+2021-07-18 07:13:21,909 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-18 07:13:22,157 INFO tpps_reducer - 20210718071321G_UID_SET
+2021-07-18 07:13:22,434 INFO tpps_reducer - 2TPPS_EDIT_SIMULATION_COUNT
+2021-07-18 07:13:22,685 TRACE tpps_reducer - setting app.toolbox.starting to true
+2021-07-18 07:13:22,931 INFO tpps_reducer - 20210718071322G_UID_SET
+2021-07-18 07:13:23,221 TRACE tpps_reducer - setting app.toolbox.starting to false
+2021-07-18 07:13:23,503 INFO tpps_reducer - 20210718071323G_UID_SET
+2021-07-18 07:13:23,743 WARN m_reducer - Warning: Load accuracy and model not yet implemented!
+2021-07-18 07:13:23,999 WARN m_reducer - Warning: Netwok and Confusion chart will not saved!
+2021-07-18 07:15:40,539 INFO tps_reducer - Training radius dataset prepared!
+2021-07-18 07:15:40,775 WARN tps_reducer - Training radius description modification not implemented!
+2021-07-18 07:17:19,405 INFO tps_reducer - Training radius dataset prepared!
+2021-07-18 07:17:19,613 WARN tps_reducer - Training radius description modification not implemented!
+2021-07-18 07:17:19,778 INFO tps_reducer - Training radius classes prepared!
+2021-07-18 07:20:55,918 INFO tps_reducer - Training radius dataset prepared!
+2021-07-18 07:20:56,115 WARN tps_reducer - Training radius description modification not implemented!
+2021-07-18 07:20:56,329 INFO tps_reducer - Training radius classes prepared!
+2021-07-18 07:22:23,509 INFO mylstm - accuracy obtained from training = 0.90556
+2021-07-18 07:22:23,771 WARN m_reducer - Warning: Load accuracy and model not yet implemented!
+2021-07-18 07:22:23,954 WARN m_reducer - Warning: Netwok and Confusion chart will not saved!
+2021-07-18 07:22:24,180 INFO m_reducer - Saving model..
+2021-07-18 07:22:24,651 INFO m_reducer - done!

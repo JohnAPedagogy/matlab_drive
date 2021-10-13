@@ -1,0 +1,37 @@
+2021-09-29 16:53:15,848 WARN get_store - Log changed to Toolbox/logger/20210929165315.txt
+2021-09-29 16:53:21,871 INFO mylstm2 - running dataset visualisation
+2021-09-29 16:54:41,755 INFO mylstm - accuracy obtained from training = 0.91111
+2021-09-29 16:54:42,708 DEBUG dloc - resolution of model = 0.05
+2021-09-29 16:54:42,775 DEBUG dloc - radius of model = 10
+2021-09-29 16:54:42,854 DEBUG dloc - height of model = 29.9999
+2021-09-29 16:54:43,262 DEBUG dloc - plotting...
+2021-09-29 16:54:43,356 DEBUG dloc - trace:j,curr,prev 50 4 4
+2021-09-29 16:54:43,434 DEBUG dloc - trace:j,curr,prev 100 4 4
+2021-09-29 16:54:43,496 DEBUG dloc - trace:j,curr,prev 150 4 4
+2021-09-29 16:54:43,590 DEBUG dloc - trace:j,curr,prev 200 4 4
+2021-09-29 16:54:43,668 DEBUG dloc - trace:j, data size: 250 692 3
+2021-09-29 16:54:43,715 DEBUG dloc - trace:j,curr,prev 250 4 4
+2021-09-29 16:54:43,840 DEBUG dloc - trace:j,curr,prev 300 4 4
+2021-09-29 16:54:43,981 DEBUG dloc - trace:j,curr,prev 350 4 7
+2021-09-29 16:54:44,074 DEBUG dloc - trace:j,curr,prev 400 4 4
+2021-09-29 16:54:44,137 DEBUG dloc - trace:j,curr,prev 450 4 4
+2021-09-29 16:54:44,184 DEBUG dloc - trace:j, data size: 500 642 3
+2021-09-29 16:54:44,199 DEBUG dloc - trace:j,curr,prev 500 4 4
+2021-09-29 16:54:44,246 DEBUG dloc - trace:j,curr,prev 550 4 4
+2021-09-29 16:54:44,371 DEBUG dloc - resolution of model = 0.05
+2021-09-29 16:54:44,387 DEBUG dloc - radius of model = 10
+2021-09-29 16:54:44,387 DEBUG dloc - height of model = 29.9999
+2021-09-29 16:54:44,496 DEBUG dloc - plotting...
+2021-09-29 16:54:44,543 DEBUG dloc - trace:j,curr,prev 50 4 4
+2021-09-29 16:54:44,590 DEBUG dloc - trace:j,curr,prev 100 4 4
+2021-09-29 16:54:44,637 DEBUG dloc - trace:j,curr,prev 150 4 4
+2021-09-29 16:54:44,684 DEBUG dloc - trace:j,curr,prev 200 4 4
+2021-09-29 16:54:44,731 DEBUG dloc - trace:j, data size: 250 692 3
+2021-09-29 16:54:44,751 DEBUG dloc - trace:j,curr,prev 250 4 4
+2021-09-29 16:54:44,798 DEBUG dloc - trace:j,curr,prev 300 4 4
+2021-09-29 16:54:44,849 DEBUG dloc - trace:j,curr,prev 350 4 4
+2021-09-29 16:54:44,912 DEBUG dloc - trace:j,curr,prev 400 4 4
+2021-09-29 16:54:44,990 DEBUG dloc - trace:j,curr,prev 450 4 4
+2021-09-29 16:54:45,052 DEBUG dloc - trace:j, data size: 500 642 3
+2021-09-29 16:54:45,068 DEBUG dloc - trace:j,curr,prev 500 4 4
+2021-09-29 16:54:45,146 DEBUG dloc - trace:j,curr,prev 550 4 4

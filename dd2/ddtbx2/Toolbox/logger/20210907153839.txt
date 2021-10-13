@@ -1,0 +1,42 @@
+2021-09-07 15:38:39,704 WARN t_lstm_dloc - Log changed to Toolbox/logger/20210907153839.txt
+2021-09-07 15:39:23,484 INFO t_lstm_dloc - Classifying using network from 20210723072505, with accuracy: 0.94889
+2021-09-07 15:39:32,967 DEBUG dloc - resolution of model = 0.05
+2021-09-07 15:39:32,999 DEBUG dloc - radius of model = 10
+2021-09-07 15:39:33,011 DEBUG dloc - height of model = 74.9992
+2021-09-07 15:39:45,653 DEBUG dloc - plotting..
+2021-09-07 15:39:46,366 DEBUG dloc - trace:j,curr,prev 50 4 4
+2021-09-07 15:39:46,462 DEBUG dloc - trace:j,curr,prev 100 7 7
+2021-09-07 15:39:46,574 DEBUG dloc - trace:j,curr,prev 150 4 4
+2021-09-07 15:39:46,671 DEBUG dloc - trace:j,curr,prev 200 4 4
+2021-09-07 15:39:46,768 DEBUG dloc - trace:j, data size: 250 695 3
+2021-09-07 15:39:46,777 DEBUG dloc - trace:j,curr,prev 250 4 4
+2021-09-07 15:39:46,864 DEBUG dloc - trace:j,curr,prev 300 4 4
+2021-09-07 15:39:46,973 DEBUG dloc - trace:j,curr,prev 350 4 4
+2021-09-07 15:39:47,061 DEBUG dloc - trace:j,curr,prev 400 4 4
+2021-09-07 15:39:47,269 DEBUG dloc - trace:j,curr,prev 450 4 4
+2021-09-07 15:39:47,363 DEBUG dloc - trace:j, data size: 500 646 3
+2021-09-07 15:39:47,372 DEBUG dloc - trace:j,curr,prev 500 4 4
+2021-09-07 15:39:47,467 DEBUG dloc - trace:j,curr,prev 550 4 4
+2021-09-07 15:39:47,573 DEBUG dloc - trace:j,curr,prev 600 4 4
+2021-09-07 15:39:47,663 DEBUG dloc - trace:j,curr,prev 650 4 4
+2021-09-07 15:39:47,769 DEBUG dloc - trace:j,curr,prev 700 4 4
+2021-09-07 15:39:47,877 DEBUG dloc - trace:j, data size: 750 636 3
+2021-09-07 15:39:47,884 DEBUG dloc - trace:j,curr,prev 750 4 4
+2021-09-07 15:39:47,998 DEBUG dloc - trace:j,curr,prev 800 7 7
+2021-09-07 15:39:48,093 DEBUG dloc - trace:j,curr,prev 850 4 4
+2021-09-07 15:39:48,203 DEBUG dloc - trace:j,curr,prev 900 4 4
+2021-09-07 15:39:48,313 DEBUG dloc - trace:j,curr,prev 950 4 4
+2021-09-07 15:39:48,414 DEBUG dloc - trace:j, data size: 1000 652 3
+2021-09-07 15:39:48,422 DEBUG dloc - trace:j,curr,prev 1000 4 4
+2021-09-07 15:39:48,533 DEBUG dloc - trace:j,curr,prev 1050 4 4
+2021-09-07 15:39:48,633 DEBUG dloc - trace:j,curr,prev 1100 7 7
+2021-09-07 15:39:48,750 DEBUG dloc - trace:j,curr,prev 1150 4 4
+2021-09-07 15:39:48,857 DEBUG dloc - trace:j,curr,prev 1200 4 4
+2021-09-07 15:39:48,959 DEBUG dloc - trace:j, data size: 1250 695 3
+2021-09-07 15:39:48,975 DEBUG dloc - trace:j,curr,prev 1250 4 4
+2021-09-07 15:39:49,079 DEBUG dloc - trace:j,curr,prev 1300 4 4
+2021-09-07 15:39:49,194 DEBUG dloc - trace:j,curr,prev 1350 4 4
+2021-09-07 15:39:49,318 DEBUG dloc - trace:j,curr,prev 1400 4 4
+2021-09-07 15:39:49,453 DEBUG dloc - trace:j,curr,prev 1450 7 7
+2021-09-07 15:39:49,575 DEBUG dloc - trace:j, data size: 1500 310 3
+2021-09-07 15:58:20,830 WARN compare_net_dloc - Log changed to Toolbox/logger/20210907155820.txt

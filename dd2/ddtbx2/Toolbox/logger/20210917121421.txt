@@ -1,0 +1,19 @@
+2021-09-17 12:14:21,678 WARN compare_net_dloc - Log changed to Toolbox/logger/20210917121421.txt
+2021-09-17 12:14:24,465 INFO compare_net_dloc - Classifying using network from 20210723003740, with accuracy: 0.94444
+2021-09-17 12:14:25,670 DEBUG dloc - resolution of model = 0.05
+2021-09-17 12:14:25,686 DEBUG dloc - radius of model = 10
+2021-09-17 12:14:25,717 DEBUG dloc - height of model = 30
+2021-09-17 12:14:25,951 DEBUG dloc - plotting...
+2021-09-17 12:14:26,014 DEBUG dloc - trace:j,curr,prev 50 4 4
+2021-09-17 12:14:26,107 DEBUG dloc - trace:j,curr,prev 100 4 4
+2021-09-17 12:14:26,154 DEBUG dloc - trace:j,curr,prev 150 4 4
+2021-09-17 12:14:26,232 DEBUG dloc - trace:j,curr,prev 200 4 4
+2021-09-17 12:14:26,342 DEBUG dloc - trace:j, data size: 250 683 3
+2021-09-17 12:14:26,373 DEBUG dloc - trace:j,curr,prev 250 4 4
+2021-09-17 12:14:26,436 DEBUG dloc - trace:j,curr,prev 300 4 4
+2021-09-17 12:14:26,482 DEBUG dloc - trace:j,curr,prev 350 4 4
+2021-09-17 12:14:26,545 DEBUG dloc - trace:j,curr,prev 400 4 4
+2021-09-17 12:14:26,592 DEBUG dloc - trace:j,curr,prev 450 4 4
+2021-09-17 12:14:26,639 DEBUG dloc - trace:j, data size: 500 711 3
+2021-09-17 12:14:26,639 DEBUG dloc - trace:j,curr,prev 500 7 7
+2021-09-17 12:14:26,701 DEBUG dloc - trace:j,curr,prev 550 4 4

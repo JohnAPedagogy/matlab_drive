@@ -1,0 +1,21 @@
+2021-10-04 02:29:44,864 WARN mapp - Log changed to Toolbox/logger/20211004022944.txt
+2021-10-04 02:30:24,136 WARN mapp - Log changed to Toolbox/logger/20211004023024.txt
+2021-10-04 02:55:59,209 WARN mapp - Log changed to Toolbox/logger/20211004025559.txt
+2021-10-04 03:53:19,443 WARN get_store - Log changed to Toolbox/logger/20211004035319.txt
+2021-10-04 03:53:58,276 WARN get_store - Log changed to Toolbox/logger/20211004035358.txt
+2021-10-04 03:54:00,872 INFO mylstm2 - running dataset visualisation
+2021-10-04 13:42:39,845 WARN mapp - Log changed to Toolbox/logger/20211004134239.txt
+2021-10-04 13:43:08,316 WARN mapp - Log changed to Toolbox/logger/20211004134308.txt
+2021-10-04 13:43:33,787 WARN mapp - Log changed to Toolbox/logger/20211004134333.txt
+2021-10-04 13:46:05,049 WARN mapp - Log changed to Toolbox/logger/20211004134605.txt
+2021-10-04 13:46:05,102 INFO mylstm2 - running dataset visualisation
+2021-10-04 13:49:36,283 WARN mapp - Log changed to Toolbox/logger/20211004134936.txt
+2021-10-04 13:49:36,301 INFO mylstm2 - running dataset visualisation
+2021-10-04 13:56:18,920 WARN mapp - Log changed to Toolbox/logger/20211004135618.txt
+2021-10-04 13:56:18,964 INFO mylstm2 - running dataset visualisation
+2021-10-04 13:57:04,644 WARN mapp - Log changed to Toolbox/logger/20211004135704.txt
+2021-10-04 13:57:04,672 INFO mylstm2 - running dataset visualisation
+2021-10-04 13:58:29,076 WARN mapp - Log changed to Toolbox/logger/20211004135829.txt
+2021-10-04 13:58:29,094 INFO mylstm2 - running dataset visualisation
+2021-10-04 13:59:03,176 WARN mapp - Log changed to Toolbox/logger/20211004135903.txt
+2021-10-04 13:59:03,193 INFO mylstm2 - running dataset visualisation

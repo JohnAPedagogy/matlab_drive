@@ -1,0 +1,46 @@
+2021-09-17 10:56:01,378 WARN compare_net_dloc - Log changed to Toolbox/logger/20210917105600.txt
+2021-09-17 10:56:58,021 WARN compare_net_dloc - Log changed to Toolbox/logger/20210917105658.txt
+2021-09-17 10:56:59,983 INFO compare_net_dloc - Classifying using network from 20210915141810, with accuracy: 0.83778
+2021-09-17 10:57:06,175 DEBUG dloc - resolution of model = 0.05
+2021-09-17 10:57:06,206 DEBUG dloc - radius of model = 10
+2021-09-17 10:57:06,206 DEBUG dloc - height of model = 74.9993
+2021-09-17 10:57:06,690 DEBUG dloc - plotting...
+2021-09-17 10:57:07,285 DEBUG dloc - trace:j,curr,prev 50 7 7
+2021-09-17 10:57:07,364 DEBUG dloc - trace:j,curr,prev 100 7 7
+2021-09-17 10:57:07,442 DEBUG dloc - trace:j,curr,prev 150 7 7
+2021-09-17 10:57:07,520 DEBUG dloc - trace:j,curr,prev 200 7 7
+2021-09-17 10:57:07,598 DEBUG dloc - trace:j, data size: 250 704 3
+2021-09-17 10:57:07,614 DEBUG dloc - trace:j,curr,prev 250 7 7
+2021-09-17 10:57:07,676 DEBUG dloc - trace:j,curr,prev 300 7 7
+2021-09-17 10:57:07,770 DEBUG dloc - trace:j,curr,prev 350 7 7
+2021-09-17 10:57:07,879 DEBUG dloc - trace:j,curr,prev 400 7 7
+2021-09-17 10:57:07,942 INFO dloc - good starts here:
+2021-09-17 10:57:08,067 DEBUG dloc - trace:j,curr,prev 450 4 4
+2021-09-17 10:57:08,145 INFO dloc - damaged starts here:
+2021-09-17 10:57:08,192 DEBUG dloc - trace:j, data size: 500 670 3
+2021-09-17 10:57:08,207 DEBUG dloc - trace:j,curr,prev 500 7 7
+2021-09-17 10:57:08,285 DEBUG dloc - trace:j,curr,prev 550 7 7
+2021-09-17 10:57:08,364 DEBUG dloc - trace:j,curr,prev 600 7 7
+2021-09-17 10:57:08,426 DEBUG dloc - trace:j,curr,prev 650 7 7
+2021-09-17 10:57:08,520 DEBUG dloc - trace:j,curr,prev 700 7 7
+2021-09-17 10:57:08,598 DEBUG dloc - trace:j, data size: 750 657 3
+2021-09-17 10:57:08,598 DEBUG dloc - trace:j,curr,prev 750 7 7
+2021-09-17 10:57:08,679 DEBUG dloc - trace:j,curr,prev 800 7 7
+2021-09-17 10:57:08,757 DEBUG dloc - trace:j,curr,prev 850 7 7
+2021-09-17 10:57:08,850 DEBUG dloc - trace:j,curr,prev 900 7 7
+2021-09-17 10:57:08,930 DEBUG dloc - trace:j,curr,prev 950 7 7
+2021-09-17 10:57:09,009 DEBUG dloc - trace:j, data size: 1000 672 3
+2021-09-17 10:57:09,024 DEBUG dloc - trace:j,curr,prev 1000 7 7
+2021-09-17 10:57:09,134 DEBUG dloc - trace:j,curr,prev 1050 7 7
+2021-09-17 10:57:09,243 DEBUG dloc - trace:j,curr,prev 1100 7 7
+2021-09-17 10:57:09,334 DEBUG dloc - trace:j,curr,prev 1150 7 7
+2021-09-17 10:57:09,412 DEBUG dloc - trace:j,curr,prev 1200 7 7
+2021-09-17 10:57:09,474 INFO dloc - good starts here:=
+2021-09-17 10:57:09,490 INFO dloc - damaged starts here:>
+2021-09-17 10:57:09,506 DEBUG dloc - trace:j, data size: 1250 673 3
+2021-09-17 10:57:09,523 DEBUG dloc - trace:j,curr,prev 1250 7 7
+2021-09-17 10:57:09,633 DEBUG dloc - trace:j,curr,prev 1300 7 7
+2021-09-17 10:57:09,700 DEBUG dloc - trace:j,curr,prev 1350 7 7
+2021-09-17 10:57:09,778 DEBUG dloc - trace:j,curr,prev 1400 7 7
+2021-09-17 10:57:09,856 DEBUG dloc - trace:j,curr,prev 1450 7 7
+2021-09-17 10:57:09,935 DEBUG dloc - trace:j, data size: 1500 323 3

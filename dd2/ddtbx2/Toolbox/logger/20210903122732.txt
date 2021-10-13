@@ -1,0 +1,166 @@
+2021-09-03 12:27:33,025 WARN t_lstm_dloc - Log changed to Toolbox/logger/20210903122732.txt
+2021-09-03 12:27:45,401 INFO t_lstm_dloc - Classifying using network from 20210723072505, with accuracy: 0.94889
+2021-09-03 12:27:50,031 DEBUG dloc - resolution of model = 0.05
+2021-09-03 12:27:50,046 DEBUG dloc - radius of model = 10
+2021-09-03 12:27:50,327 DEBUG dloc - height of model = 74.9992
+2021-09-03 12:27:52,612 DEBUG dloc - plotting..
+2021-09-03 12:27:53,848 DEBUG dloc - trace:j,curr,prev 50 4 4
+2021-09-03 12:27:53,957 DEBUG dloc - trace:j,curr,prev 100 7 7
+2021-09-03 12:27:54,051 DEBUG dloc - trace:j,curr,prev 150 4 4
+2021-09-03 12:27:54,145 DEBUG dloc - trace:j,curr,prev 200 4 4
+2021-09-03 12:27:54,209 DEBUG dloc - trace:j, data size: 250 695 3
+2021-09-03 12:27:54,224 DEBUG dloc - trace:j,curr,prev 250 4 4
+2021-09-03 12:27:54,318 DEBUG dloc - trace:j,curr,prev 300 4 4
+2021-09-03 12:27:54,443 DEBUG dloc - trace:j,curr,prev 350 4 4
+2021-09-03 12:27:54,521 DEBUG dloc - trace:j,curr,prev 400 4 4
+2021-09-03 12:27:54,615 DEBUG dloc - trace:j,curr,prev 450 4 4
+2021-09-03 12:27:54,695 DEBUG dloc - trace:j, data size: 500 646 3
+2021-09-03 12:27:54,695 DEBUG dloc - trace:j,curr,prev 500 4 4
+2021-09-03 12:27:54,773 DEBUG dloc - trace:j,curr,prev 550 4 4
+2021-09-03 12:27:54,882 DEBUG dloc - trace:j,curr,prev 600 4 4
+2021-09-03 12:27:54,961 DEBUG dloc - trace:j,curr,prev 650 4 4
+2021-09-03 12:27:55,039 DEBUG dloc - trace:j,curr,prev 700 4 4
+2021-09-03 12:27:55,132 DEBUG dloc - trace:j, data size: 750 636 3
+2021-09-03 12:27:55,132 DEBUG dloc - trace:j,curr,prev 750 4 4
+2021-09-03 12:27:55,226 DEBUG dloc - trace:j,curr,prev 800 7 7
+2021-09-03 12:27:55,320 DEBUG dloc - trace:j,curr,prev 850 4 4
+2021-09-03 12:27:55,399 DEBUG dloc - trace:j,curr,prev 900 4 4
+2021-09-03 12:27:55,493 DEBUG dloc - trace:j,curr,prev 950 4 4
+2021-09-03 12:27:55,571 DEBUG dloc - trace:j, data size: 1000 652 3
+2021-09-03 12:27:55,602 DEBUG dloc - trace:j,curr,prev 1000 4 4
+2021-09-03 12:27:55,696 DEBUG dloc - trace:j,curr,prev 1050 4 4
+2021-09-03 12:27:55,930 DEBUG dloc - trace:j,curr,prev 1100 7 7
+2021-09-03 12:27:56,040 DEBUG dloc - trace:j,curr,prev 1150 4 4
+2021-09-03 12:27:56,134 DEBUG dloc - trace:j,curr,prev 1200 4 4
+2021-09-03 12:27:56,227 DEBUG dloc - trace:j, data size: 1250 695 3
+2021-09-03 12:27:56,259 DEBUG dloc - trace:j,curr,prev 1250 4 4
+2021-09-03 12:27:56,337 DEBUG dloc - trace:j,curr,prev 1300 4 4
+2021-09-03 12:27:56,415 DEBUG dloc - trace:j,curr,prev 1350 4 4
+2021-09-03 12:27:56,524 DEBUG dloc - trace:j,curr,prev 1400 4 4
+2021-09-03 12:27:56,618 DEBUG dloc - trace:j,curr,prev 1450 7 7
+2021-09-03 12:27:56,729 DEBUG dloc - trace:j, data size: 1500 310 3
+2021-09-03 12:56:31,242 WARN  - Log changed to Toolbox/logger/20210903125630.txt
+2021-09-03 12:56:38,339 INFO  - Classifying using network from 20210723072505, with accuracy: 0.85444
+2021-09-03 12:56:39,325 DEBUG dloc - resolution of model = 0.05
+2021-09-03 12:56:39,341 DEBUG dloc - radius of model = 10
+2021-09-03 12:56:39,419 DEBUG dloc - height of model = 149.9973
+2021-09-03 12:56:39,622 DEBUG dloc - plotting..
+2021-09-03 12:56:39,825 DEBUG dloc - trace:j,curr,prev 50 4 4
+2021-09-03 12:56:39,981 DEBUG dloc - trace:j,curr,prev 100 7 7
+2021-09-03 12:56:40,122 DEBUG dloc - trace:j,curr,prev 150 4 4
+2021-09-03 12:56:40,247 DEBUG dloc - trace:j,curr,prev 200 4 4
+2021-09-03 12:56:40,419 DEBUG dloc - trace:j, data size: 250 634 3
+2021-09-03 12:56:40,434 DEBUG dloc - trace:j,curr,prev 250 4 4
+2021-09-03 12:56:40,544 DEBUG dloc - trace:j,curr,prev 300 4 4
+2021-09-03 12:56:40,670 DEBUG dloc - trace:j,curr,prev 350 4 4
+2021-09-03 12:56:40,795 DEBUG dloc - trace:j,curr,prev 400 4 4
+2021-09-03 12:56:40,920 DEBUG dloc - trace:j,curr,prev 450 4 4
+2021-09-03 12:56:41,037 DEBUG dloc - trace:j, data size: 500 699 3
+2021-09-03 12:56:41,052 DEBUG dloc - trace:j,curr,prev 500 4 4
+2021-09-03 12:56:41,162 DEBUG dloc - trace:j,curr,prev 550 4 4
+2021-09-03 12:56:41,287 DEBUG dloc - trace:j,curr,prev 600 4 4
+2021-09-03 12:56:41,427 DEBUG dloc - trace:j,curr,prev 650 4 4
+2021-09-03 12:56:41,552 DEBUG dloc - trace:j,curr,prev 700 4 4
+2021-09-03 12:56:41,677 DEBUG dloc - trace:j, data size: 750 652 3
+2021-09-03 12:56:41,677 DEBUG dloc - trace:j,curr,prev 750 4 4
+2021-09-03 12:56:41,787 DEBUG dloc - trace:j,curr,prev 800 7 7
+2021-09-03 12:56:41,912 DEBUG dloc - trace:j,curr,prev 850 4 4
+2021-09-03 12:56:42,026 DEBUG dloc - trace:j,curr,prev 900 4 4
+2021-09-03 12:56:42,136 DEBUG dloc - trace:j,curr,prev 950 4 4
+2021-09-03 12:56:42,261 DEBUG dloc - trace:j, data size: 1000 711 3
+2021-09-03 12:56:42,276 DEBUG dloc - trace:j,curr,prev 1000 4 4
+2021-09-03 12:56:42,386 DEBUG dloc - trace:j,curr,prev 1050 4 4
+2021-09-03 12:56:42,542 DEBUG dloc - trace:j,curr,prev 1100 7 7
+2021-09-03 12:56:42,669 DEBUG dloc - trace:j,curr,prev 1150 4 4
+2021-09-03 12:56:42,794 DEBUG dloc - trace:j,curr,prev 1200 4 4
+2021-09-03 12:56:42,903 DEBUG dloc - trace:j, data size: 1250 671 3
+2021-09-03 12:56:42,919 DEBUG dloc - trace:j,curr,prev 1250 4 4
+2021-09-03 12:56:43,012 DEBUG dloc - trace:j,curr,prev 1300 4 4
+2021-09-03 12:56:43,122 DEBUG dloc - trace:j,curr,prev 1350 4 4
+2021-09-03 12:56:43,231 DEBUG dloc - trace:j,curr,prev 1400 4 4
+2021-09-03 12:56:43,340 DEBUG dloc - trace:j,curr,prev 1450 7 7
+2021-09-03 12:56:43,450 DEBUG dloc - trace:j, data size: 1500 686 3
+2021-09-03 13:06:25,873 WARN  - Log changed to Toolbox/logger/20210903130625.txt
+2021-09-03 13:06:31,603 INFO  - Classifying using network from 20210723072505, with accuracy: 0.85444
+2021-09-03 13:06:32,631 DEBUG dloc - resolution of model = 0.05
+2021-09-03 13:06:32,646 DEBUG dloc - radius of model = 10
+2021-09-03 13:06:32,646 DEBUG dloc - height of model = 74.9992
+2021-09-03 13:06:33,459 DEBUG dloc - plotting..
+2021-09-03 13:06:33,537 DEBUG dloc - trace:j,curr,prev 50 4 4
+2021-09-03 13:06:33,599 DEBUG dloc - trace:j,curr,prev 100 4 4
+2021-09-03 13:06:33,662 DEBUG dloc - trace:j,curr,prev 150 4 4
+2021-09-03 13:06:33,724 DEBUG dloc - trace:j,curr,prev 200 4 4
+2021-09-03 13:06:33,787 DEBUG dloc - trace:j, data size: 250 695 3
+2021-09-03 13:06:33,803 DEBUG dloc - trace:j,curr,prev 250 4 4
+2021-09-03 13:06:33,865 DEBUG dloc - trace:j,curr,prev 300 7 7
+2021-09-03 13:06:33,943 DEBUG dloc - trace:j,curr,prev 350 4 4
+2021-09-03 13:06:34,004 DEBUG dloc - trace:j,curr,prev 400 4 4
+2021-09-03 13:06:34,097 DEBUG dloc - trace:j,curr,prev 450 7 7
+2021-09-03 13:06:34,160 DEBUG dloc - trace:j, data size: 500 646 3
+2021-09-03 13:06:34,176 DEBUG dloc - trace:j,curr,prev 500 4 4
+2021-09-03 13:06:34,238 DEBUG dloc - trace:j,curr,prev 550 4 4
+2021-09-03 13:06:34,300 DEBUG dloc - trace:j,curr,prev 600 4 4
+2021-09-03 13:06:34,379 DEBUG dloc - trace:j,curr,prev 650 4 4
+2021-09-03 13:06:34,441 DEBUG dloc - trace:j,curr,prev 700 4 4
+2021-09-03 13:06:34,504 DEBUG dloc - trace:j, data size: 750 636 3
+2021-09-03 13:06:34,519 DEBUG dloc - trace:j,curr,prev 750 4 4
+2021-09-03 13:06:34,771 DEBUG dloc - trace:j,curr,prev 800 4 4
+2021-09-03 13:06:34,896 DEBUG dloc - trace:j,curr,prev 850 4 4
+2021-09-03 13:06:34,974 DEBUG dloc - trace:j,curr,prev 900 4 4
+2021-09-03 13:06:35,052 DEBUG dloc - trace:j,curr,prev 950 4 4
+2021-09-03 13:06:35,130 DEBUG dloc - trace:j, data size: 1000 652 3
+2021-09-03 13:06:35,130 DEBUG dloc - trace:j,curr,prev 1000 4 4
+2021-09-03 13:06:35,239 DEBUG dloc - trace:j,curr,prev 1050 4 4
+2021-09-03 13:06:35,327 DEBUG dloc - trace:j,curr,prev 1100 4 4
+2021-09-03 13:06:35,421 DEBUG dloc - trace:j,curr,prev 1150 4 4
+2021-09-03 13:06:35,499 DEBUG dloc - trace:j,curr,prev 1200 4 4
+2021-09-03 13:06:35,577 DEBUG dloc - trace:j, data size: 1250 695 3
+2021-09-03 13:06:35,577 DEBUG dloc - trace:j,curr,prev 1250 4 4
+2021-09-03 13:06:35,655 DEBUG dloc - trace:j,curr,prev 1300 4 4
+2021-09-03 13:06:35,734 DEBUG dloc - trace:j,curr,prev 1350 4 4
+2021-09-03 13:06:35,812 DEBUG dloc - trace:j,curr,prev 1400 7 7
+2021-09-03 13:06:35,905 DEBUG dloc - trace:j,curr,prev 1450 4 4
+2021-09-03 13:06:35,984 DEBUG dloc - trace:j, data size: 1500 310 3
+2021-09-03 13:06:35,984 DEBUG dloc - trace:j,curr,prev 1500 7 7
+2021-09-03 13:09:44,806 WARN compare_net_dloc - Log changed to Toolbox/logger/20210903130944.txt
+2021-09-03 13:09:49,759 INFO compare_net_dloc - Classifying using network from 20210723072505, with accuracy: 0.85444
+2021-09-03 13:09:50,351 DEBUG dloc - resolution of model = 0.05
+2021-09-03 13:09:50,361 DEBUG dloc - radius of model = 10
+2021-09-03 13:09:50,372 DEBUG dloc - height of model = 74.9992
+2021-09-03 13:09:50,965 DEBUG dloc - plotting..
+2021-09-03 13:09:51,105 DEBUG dloc - trace:j,curr,prev 50 4 4
+2021-09-03 13:09:51,230 DEBUG dloc - trace:j,curr,prev 100 4 4
+2021-09-03 13:09:51,371 DEBUG dloc - trace:j,curr,prev 150 4 4
+2021-09-03 13:09:51,511 DEBUG dloc - trace:j,curr,prev 200 4 4
+2021-09-03 13:09:51,665 DEBUG dloc - trace:j, data size: 250 695 3
+2021-09-03 13:09:51,677 DEBUG dloc - trace:j,curr,prev 250 4 4
+2021-09-03 13:09:52,015 DEBUG dloc - trace:j,curr,prev 300 7 7
+2021-09-03 13:09:52,198 DEBUG dloc - trace:j,curr,prev 350 4 4
+2021-09-03 13:09:52,361 DEBUG dloc - trace:j,curr,prev 400 4 4
+2021-09-03 13:09:52,506 DEBUG dloc - trace:j,curr,prev 450 7 7
+2021-09-03 13:09:52,660 DEBUG dloc - trace:j, data size: 500 646 3
+2021-09-03 13:09:52,676 DEBUG dloc - trace:j,curr,prev 500 4 4
+2021-09-03 13:09:52,816 DEBUG dloc - trace:j,curr,prev 550 4 4
+2021-09-03 13:09:52,941 DEBUG dloc - trace:j,curr,prev 600 4 4
+2021-09-03 13:09:53,082 DEBUG dloc - trace:j,curr,prev 650 4 4
+2021-09-03 13:09:53,223 DEBUG dloc - trace:j,curr,prev 700 4 4
+2021-09-03 13:09:53,363 DEBUG dloc - trace:j, data size: 750 636 3
+2021-09-03 13:09:53,379 DEBUG dloc - trace:j,curr,prev 750 4 4
+2021-09-03 13:09:53,535 DEBUG dloc - trace:j,curr,prev 800 4 4
+2021-09-03 13:09:53,691 DEBUG dloc - trace:j,curr,prev 850 4 4
+2021-09-03 13:09:53,832 DEBUG dloc - trace:j,curr,prev 900 4 4
+2021-09-03 13:09:53,973 DEBUG dloc - trace:j,curr,prev 950 4 4
+2021-09-03 13:09:54,113 DEBUG dloc - trace:j, data size: 1000 652 3
+2021-09-03 13:09:54,113 DEBUG dloc - trace:j,curr,prev 1000 4 4
+2021-09-03 13:09:54,191 DEBUG dloc - trace:j,curr,prev 1050 4 4
+2021-09-03 13:09:54,255 DEBUG dloc - trace:j,curr,prev 1100 4 4
+2021-09-03 13:09:54,411 DEBUG dloc - trace:j,curr,prev 1150 4 4
+2021-09-03 13:09:54,505 DEBUG dloc - trace:j,curr,prev 1200 4 4
+2021-09-03 13:09:54,599 DEBUG dloc - trace:j, data size: 1250 695 3
+2021-09-03 13:09:54,599 DEBUG dloc - trace:j,curr,prev 1250 4 4
+2021-09-03 13:09:54,678 DEBUG dloc - trace:j,curr,prev 1300 4 4
+2021-09-03 13:09:54,757 DEBUG dloc - trace:j,curr,prev 1350 4 4
+2021-09-03 13:09:54,835 DEBUG dloc - trace:j,curr,prev 1400 7 7
+2021-09-03 13:09:54,913 DEBUG dloc - trace:j,curr,prev 1450 4 4
+2021-09-03 13:09:55,053 DEBUG dloc - trace:j, data size: 1500 310 3
+2021-09-03 13:09:55,053 DEBUG dloc - trace:j,curr,prev 1500 7 7

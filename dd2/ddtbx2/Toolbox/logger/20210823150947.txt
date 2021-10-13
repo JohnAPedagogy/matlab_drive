@@ -1,0 +1,200 @@
+2021-08-23 15:09:47,546 WARN t_lstm_dloc - Log changed to Toolbox/logger/20210823150947.txt
+2021-08-23 15:28:06,736 WARN t_lstm_dloc - Log changed to Toolbox/logger/20210823152806.txt
+2021-08-23 15:29:55,486 WARN t_lstm_dloc - Log changed to Toolbox/logger/20210823152955.txt
+2021-08-23 15:29:57,315 INFO t_lstm_dloc - Classifying using network from 20210723072505, with accuracy: 0.85444
+2021-08-23 15:30:08,096 DEBUG dloc - resolution of model = 0.05
+2021-08-23 15:30:08,130 DEBUG dloc - radius of model = 10
+2021-08-23 15:30:08,144 DEBUG dloc - height of model = 149.9973
+2021-08-23 15:30:10,342 DEBUG dloc - plotting..
+2021-08-23 15:30:11,261 DEBUG dloc - trace:j,curr,prev 50 4 4
+2021-08-23 15:30:11,398 DEBUG dloc - trace:j,curr,prev 100 4 4
+2021-08-23 15:30:11,738 DEBUG dloc - trace:j,curr,prev 150 4 4
+2021-08-23 15:30:11,919 DEBUG dloc - trace:j,curr,prev 200 4 4
+2021-08-23 15:30:12,041 DEBUG dloc - trace:j, data size: 250 634 3
+2021-08-23 15:30:12,048 DEBUG dloc - trace:j,curr,prev 250 4 4
+2021-08-23 15:30:12,088 INFO dloc - damaged starts here:
+2021-08-23 15:30:12,181 DEBUG dloc - trace:j,curr,prev 300 7 7
+2021-08-23 15:30:12,208 INFO dloc - good starts here:
+2021-08-23 15:30:12,329 DEBUG dloc - trace:j,curr,prev 350 4 4
+2021-08-23 15:30:12,444 DEBUG dloc - trace:j,curr,prev 400 4 4
+2021-08-23 15:30:12,496 INFO dloc - damaged starts here:
+2021-08-23 15:30:12,581 DEBUG dloc - trace:j,curr,prev 450 7 7
+2021-08-23 15:30:12,628 INFO dloc - good starts here:
+2021-08-23 15:30:12,725 DEBUG dloc - trace:j, data size: 500 699 3
+2021-08-23 15:30:12,746 DEBUG dloc - trace:j,curr,prev 500 4 4
+2021-08-23 15:30:12,860 DEBUG dloc - trace:j,curr,prev 550 4 4
+2021-08-23 15:30:12,968 DEBUG dloc - trace:j,curr,prev 600 4 4
+2021-08-23 15:30:13,080 DEBUG dloc - trace:j,curr,prev 650 4 4
+2021-08-23 15:30:13,189 DEBUG dloc - trace:j,curr,prev 700 4 4
+2021-08-23 15:30:13,300 DEBUG dloc - trace:j, data size: 750 652 3
+2021-08-23 15:30:13,306 DEBUG dloc - trace:j,curr,prev 750 4 4
+2021-08-23 15:30:13,421 DEBUG dloc - trace:j,curr,prev 800 4 4
+2021-08-23 15:30:13,439 INFO dloc - damaged starts here:(
+2021-08-23 15:30:13,571 INFO dloc - good starts here:*
+2021-08-23 15:30:13,583 DEBUG dloc - trace:j,curr,prev 850 4 4
+2021-08-23 15:30:13,698 DEBUG dloc - trace:j,curr,prev 900 4 4
+2021-08-23 15:30:13,814 DEBUG dloc - trace:j,curr,prev 950 4 4
+2021-08-23 15:30:13,927 DEBUG dloc - trace:j, data size: 1000 711 3
+2021-08-23 15:30:13,933 DEBUG dloc - trace:j,curr,prev 1000 4 4
+2021-08-23 15:30:14,067 DEBUG dloc - trace:j,curr,prev 1050 4 4
+2021-08-23 15:30:14,193 DEBUG dloc - trace:j,curr,prev 1100 4 4
+2021-08-23 15:30:14,212 INFO dloc - damaged starts here:7
+2021-08-23 15:30:14,341 INFO dloc - good starts here:9
+2021-08-23 15:30:14,354 DEBUG dloc - trace:j,curr,prev 1150 4 4
+2021-08-23 15:30:14,483 DEBUG dloc - trace:j,curr,prev 1200 4 4
+2021-08-23 15:30:14,608 DEBUG dloc - trace:j, data size: 1250 671 3
+2021-08-23 15:30:14,615 DEBUG dloc - trace:j,curr,prev 1250 4 4
+2021-08-23 15:30:14,718 DEBUG dloc - trace:j,curr,prev 1300 4 4
+2021-08-23 15:30:14,825 DEBUG dloc - trace:j,curr,prev 1350 4 4
+2021-08-23 15:30:14,899 INFO dloc - damaged starts here:E
+2021-08-23 15:30:14,940 DEBUG dloc - trace:j,curr,prev 1400 7 7
+2021-08-23 15:30:15,002 INFO dloc - good starts here:G
+2021-08-23 15:30:15,057 DEBUG dloc - trace:j,curr,prev 1450 4 4
+2021-08-23 15:30:15,162 INFO dloc - damaged starts here:J
+2021-08-23 15:30:15,198 DEBUG dloc - trace:j, data size: 1500 686 3
+2021-08-23 15:30:15,219 DEBUG dloc - trace:j,curr,prev 1500 7 7
+2021-08-23 15:30:15,329 DEBUG dloc - trace:j,curr,prev 1550 7 7
+2021-08-23 15:30:15,407 INFO dloc - good starts here:O
+2021-08-23 15:30:15,456 DEBUG dloc - trace:j,curr,prev 1600 4 4
+2021-08-23 15:30:15,564 INFO dloc - damaged starts here:R
+2021-08-23 15:30:15,596 DEBUG dloc - trace:j,curr,prev 1650 7 7
+2021-08-23 15:30:15,705 DEBUG dloc - trace:j,curr,prev 1700 7 7
+2021-08-23 15:30:15,815 DEBUG dloc - trace:j, data size: 1750 663 3
+2021-08-23 15:30:15,822 DEBUG dloc - trace:j,curr,prev 1750 7 7
+2021-08-23 15:30:15,868 INFO dloc - good starts here:X
+2021-08-23 15:30:15,941 DEBUG dloc - trace:j,curr,prev 1800 4 4
+2021-08-23 15:30:16,055 DEBUG dloc - trace:j,curr,prev 1850 4 4
+2021-08-23 15:30:16,133 INFO dloc - damaged starts here:^
+2021-08-23 15:30:16,175 DEBUG dloc - trace:j,curr,prev 1900 7 7
+2021-08-23 15:30:16,242 INFO dloc - good starts here:`
+2021-08-23 15:30:16,299 DEBUG dloc - trace:j,curr,prev 1950 4 4
+2021-08-23 15:30:16,409 DEBUG dloc - trace:j, data size: 2000 646 3
+2021-08-23 15:30:16,416 DEBUG dloc - trace:j,curr,prev 2000 4 4
+2021-08-23 15:30:16,530 DEBUG dloc - trace:j,curr,prev 2050 4 4
+2021-08-23 15:30:16,643 DEBUG dloc - trace:j,curr,prev 2100 4 4
+2021-08-23 15:30:16,759 DEBUG dloc - trace:j,curr,prev 2150 4 4
+2021-08-23 15:30:16,878 DEBUG dloc - trace:j,curr,prev 2200 4 4
+2021-08-23 15:30:16,978 INFO dloc - damaged starts here:p
+2021-08-23 15:30:17,000 DEBUG dloc - trace:j, data size: 2250 668 3
+2021-08-23 15:30:17,006 DEBUG dloc - trace:j,curr,prev 2250 7 7
+2021-08-23 15:30:17,095 INFO dloc - good starts here:r
+2021-08-23 15:30:17,129 DEBUG dloc - trace:j,curr,prev 2300 4 4
+2021-08-23 15:30:17,249 DEBUG dloc - trace:j,curr,prev 2350 4 4
+2021-08-23 15:30:17,366 DEBUG dloc - trace:j,curr,prev 2400 4 4
+2021-08-23 15:30:17,474 INFO dloc - damaged starts here:z
+2021-08-23 15:30:17,494 DEBUG dloc - trace:j,curr,prev 2450 7 7
+2021-08-23 15:30:17,592 INFO dloc - good starts here:|
+2021-08-23 15:30:17,620 DEBUG dloc - trace:j, data size: 2500 680 3
+2021-08-23 15:30:17,627 DEBUG dloc - trace:j,curr,prev 2500 4 4
+2021-08-23 15:30:17,745 DEBUG dloc - trace:j,curr,prev 2550 4 4
+2021-08-23 15:30:17,865 DEBUG dloc - trace:j,curr,prev 2600 4 4
+2021-08-23 15:30:17,986 DEBUG dloc - trace:j,curr,prev 2650 4 4
+2021-08-23 15:30:18,107 DEBUG dloc - trace:j,curr,prev 2700 4 4
+2021-08-23 15:30:18,231 DEBUG dloc - trace:j, data size: 2750 646 3
+2021-08-23 15:30:18,238 DEBUG dloc - trace:j,curr,prev 2750 4 4
+2021-08-23 15:30:18,371 DEBUG dloc - trace:j,curr,prev 2800 4 4
+2021-08-23 15:30:18,492 DEBUG dloc - trace:j,curr,prev 2850 4 4
+2021-08-23 15:30:18,579 INFO dloc - damaged starts here:
+2021-08-23 15:30:18,625 DEBUG dloc - trace:j,curr,prev 2900 7 7
+2021-08-23 15:30:18,699 INFO dloc - good starts here:
+2021-08-23 15:30:18,757 DEBUG dloc - trace:j,curr,prev 2950 4 4
+2021-08-23 15:30:18,883 DEBUG dloc - trace:j, data size: 3000 330 3
+2021-08-23 15:50:57,154 WARN t_lstm_dloc - Log changed to Toolbox/logger/20210823155057.txt
+2021-08-23 15:50:59,641 INFO t_lstm_dloc - Classifying using network from 20210723072505, with accuracy: 0.85444
+2021-08-23 15:51:03,061 DEBUG dloc - resolution of model = 0.05
+2021-08-23 15:51:03,070 DEBUG dloc - radius of model = 10
+2021-08-23 15:51:03,079 DEBUG dloc - height of model = 149.9973
+2021-08-23 15:51:03,615 DEBUG dloc - plotting..
+2021-08-23 15:51:03,771 DEBUG dloc - trace:j,curr,prev 50 4 4
+2021-08-23 15:51:03,870 DEBUG dloc - trace:j,curr,prev 100 4 4
+2021-08-23 15:51:03,968 DEBUG dloc - trace:j,curr,prev 150 4 4
+2021-08-23 15:51:04,067 DEBUG dloc - trace:j,curr,prev 200 4 4
+2021-08-23 15:51:04,167 DEBUG dloc - trace:j, data size: 250 634 3
+2021-08-23 15:51:04,174 DEBUG dloc - trace:j,curr,prev 250 4 4
+2021-08-23 15:51:04,306 INFO dloc - damaged starts here:
+2021-08-23 15:51:04,380 DEBUG dloc - trace:j,curr,prev 300 7 7
+2021-08-23 15:51:04,393 INFO dloc - good starts here:
+2021-08-23 15:51:04,492 DEBUG dloc - trace:j,curr,prev 350 4 4
+2021-08-23 15:51:04,594 DEBUG dloc - trace:j,curr,prev 400 4 4
+2021-08-23 15:51:04,647 INFO dloc - damaged starts here:
+2021-08-23 15:51:04,704 DEBUG dloc - trace:j,curr,prev 450 7 7
+2021-08-23 15:51:04,750 INFO dloc - good starts here:
+2021-08-23 15:51:04,818 DEBUG dloc - trace:j, data size: 500 699 3
+2021-08-23 15:51:04,880 DEBUG dloc - trace:j,curr,prev 500 4 4
+2021-08-23 15:51:05,030 DEBUG dloc - trace:j,curr,prev 550 4 4
+2021-08-23 15:51:05,134 DEBUG dloc - trace:j,curr,prev 600 4 4
+2021-08-23 15:51:05,252 DEBUG dloc - trace:j,curr,prev 650 4 4
+2021-08-23 15:51:05,361 DEBUG dloc - trace:j,curr,prev 700 4 4
+2021-08-23 15:51:05,615 DEBUG dloc - trace:j, data size: 750 652 3
+2021-08-23 15:51:05,623 DEBUG dloc - trace:j,curr,prev 750 4 4
+2021-08-23 15:51:05,728 DEBUG dloc - trace:j,curr,prev 800 4 4
+2021-08-23 15:51:05,745 INFO dloc - damaged starts here:(
+2021-08-23 15:51:05,839 INFO dloc - good starts here:*
+2021-08-23 15:51:05,854 DEBUG dloc - trace:j,curr,prev 850 4 4
+2021-08-23 15:51:05,958 DEBUG dloc - trace:j,curr,prev 900 4 4
+2021-08-23 15:51:06,062 DEBUG dloc - trace:j,curr,prev 950 4 4
+2021-08-23 15:51:06,169 DEBUG dloc - trace:j, data size: 1000 711 3
+2021-08-23 15:51:06,176 DEBUG dloc - trace:j,curr,prev 1000 4 4
+2021-08-23 15:51:06,286 DEBUG dloc - trace:j,curr,prev 1050 4 4
+2021-08-23 15:51:06,387 DEBUG dloc - trace:j,curr,prev 1100 4 4
+2021-08-23 15:51:06,404 INFO dloc - damaged starts here:7
+2021-08-23 15:51:06,498 INFO dloc - good starts here:9
+2021-08-23 15:51:06,510 DEBUG dloc - trace:j,curr,prev 1150 4 4
+2021-08-23 15:51:06,629 DEBUG dloc - trace:j,curr,prev 1200 4 4
+2021-08-23 15:51:06,790 DEBUG dloc - trace:j, data size: 1250 671 3
+2021-08-23 15:51:06,797 DEBUG dloc - trace:j,curr,prev 1250 4 4
+2021-08-23 15:51:06,911 DEBUG dloc - trace:j,curr,prev 1300 4 4
+2021-08-23 15:51:07,022 DEBUG dloc - trace:j,curr,prev 1350 4 4
+2021-08-23 15:51:07,100 INFO dloc - damaged starts here:E
+2021-08-23 15:51:07,154 DEBUG dloc - trace:j,curr,prev 1400 7 7
+2021-08-23 15:51:07,219 INFO dloc - good starts here:G
+2021-08-23 15:51:07,282 DEBUG dloc - trace:j,curr,prev 1450 4 4
+2021-08-23 15:51:07,394 INFO dloc - damaged starts here:J
+2021-08-23 15:51:07,405 DEBUG dloc - trace:j, data size: 1500 686 3
+2021-08-23 15:51:07,412 DEBUG dloc - trace:j,curr,prev 1500 7 7
+2021-08-23 15:51:07,525 DEBUG dloc - trace:j,curr,prev 1550 7 7
+2021-08-23 15:51:07,606 INFO dloc - good starts here:O
+2021-08-23 15:51:07,649 DEBUG dloc - trace:j,curr,prev 1600 4 4
+2021-08-23 15:51:07,748 INFO dloc - damaged starts here:R
+2021-08-23 15:51:07,771 DEBUG dloc - trace:j,curr,prev 1650 7 7
+2021-08-23 15:51:07,887 DEBUG dloc - trace:j,curr,prev 1700 7 7
+2021-08-23 15:51:07,997 DEBUG dloc - trace:j, data size: 1750 663 3
+2021-08-23 15:51:08,005 DEBUG dloc - trace:j,curr,prev 1750 7 7
+2021-08-23 15:51:08,053 INFO dloc - good starts here:X
+2021-08-23 15:51:08,130 DEBUG dloc - trace:j,curr,prev 1800 4 4
+2021-08-23 15:51:08,248 DEBUG dloc - trace:j,curr,prev 1850 4 4
+2021-08-23 15:51:08,331 INFO dloc - damaged starts here:^
+2021-08-23 15:51:08,377 DEBUG dloc - trace:j,curr,prev 1900 7 7
+2021-08-23 15:51:08,446 INFO dloc - good starts here:`
+2021-08-23 15:51:08,510 DEBUG dloc - trace:j,curr,prev 1950 4 4
+2021-08-23 15:51:08,630 DEBUG dloc - trace:j, data size: 2000 646 3
+2021-08-23 15:51:08,638 DEBUG dloc - trace:j,curr,prev 2000 4 4
+2021-08-23 15:51:08,762 DEBUG dloc - trace:j,curr,prev 2050 4 4
+2021-08-23 15:51:08,882 DEBUG dloc - trace:j,curr,prev 2100 4 4
+2021-08-23 15:51:09,001 DEBUG dloc - trace:j,curr,prev 2150 4 4
+2021-08-23 15:51:09,124 DEBUG dloc - trace:j,curr,prev 2200 4 4
+2021-08-23 15:51:09,233 INFO dloc - damaged starts here:p
+2021-08-23 15:51:09,278 DEBUG dloc - trace:j, data size: 2250 668 3
+2021-08-23 15:51:09,287 DEBUG dloc - trace:j,curr,prev 2250 7 7
+2021-08-23 15:51:09,382 INFO dloc - good starts here:r
+2021-08-23 15:51:09,417 DEBUG dloc - trace:j,curr,prev 2300 4 4
+2021-08-23 15:51:09,548 DEBUG dloc - trace:j,curr,prev 2350 4 4
+2021-08-23 15:51:09,671 DEBUG dloc - trace:j,curr,prev 2400 4 4
+2021-08-23 15:51:09,798 INFO dloc - damaged starts here:z
+2021-08-23 15:51:09,849 DEBUG dloc - trace:j,curr,prev 2450 7 7
+2021-08-23 15:51:09,953 INFO dloc - good starts here:|
+2021-08-23 15:51:09,984 DEBUG dloc - trace:j, data size: 2500 680 3
+2021-08-23 15:51:09,992 DEBUG dloc - trace:j,curr,prev 2500 4 4
+2021-08-23 15:51:10,115 DEBUG dloc - trace:j,curr,prev 2550 4 4
+2021-08-23 15:51:10,241 DEBUG dloc - trace:j,curr,prev 2600 4 4
+2021-08-23 15:51:10,386 DEBUG dloc - trace:j,curr,prev 2650 4 4
+2021-08-23 15:51:10,511 DEBUG dloc - trace:j,curr,prev 2700 4 4
+2021-08-23 15:51:10,634 DEBUG dloc - trace:j, data size: 2750 646 3
+2021-08-23 15:51:10,641 DEBUG dloc - trace:j,curr,prev 2750 4 4
+2021-08-23 15:51:10,768 DEBUG dloc - trace:j,curr,prev 2800 4 4
+2021-08-23 15:51:10,898 DEBUG dloc - trace:j,curr,prev 2850 4 4
+2021-08-23 15:51:10,986 INFO dloc - damaged starts here:
+2021-08-23 15:51:11,032 DEBUG dloc - trace:j,curr,prev 2900 7 7
+2021-08-23 15:51:11,108 INFO dloc - good starts here:
+2021-08-23 15:51:11,169 DEBUG dloc - trace:j,curr,prev 2950 4 4
+2021-08-23 15:51:11,299 DEBUG dloc - trace:j, data size: 3000 330 3
